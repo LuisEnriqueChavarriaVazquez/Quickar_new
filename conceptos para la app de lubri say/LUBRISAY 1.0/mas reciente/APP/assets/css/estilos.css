@@ -1,0 +1,262 @@
+@font-face {
+  font-family: roboto;
+  src: url(../font/roboto.ttf) format("truetype"); }
+@font-face {
+  font-family: robotomax;
+  src: url(../font/robotomax.ttf) format("truetype"); }
+@font-face {
+  font-family: elegante;
+  src: url(../font/elegante.ttf) format("truetype"); }
+@font-face {
+  font-family: cursiva;
+  src: url(../font/cursiva.ttf) format("truetype"); }
+  @font-face {
+    font-family: negro;
+    src: url(../font/black.ttf) format("truetype"); }
+  @font-face {
+      font-family: genial;
+      src: url(../font/Raleway-Thin.ttf) format("truetype"); }
+  @font-face {
+      font-family: lubri;
+      src: url(../font/lubri.ttf) format("truetype"); }
+
+  *{padding:0;
+	margin:0;}
+
+	.enlace{
+	text-decoration:none;
+	color:white;}
+
+.menubase{
+  z-index:1000;
+  display:flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	background-color:#000;
+	width:100%;
+	height:60px;}
+	.menu{
+	 /*fixed is  here*/
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	height:60px;
+	background-color:#00acc1;}
+		.option{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		width:8000px;
+		height:60px;
+		color:white;
+		font-size:20px;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;}
+
+      .return{
+        font-size:25px;
+        padding: 25px;
+        -webkit-transition: all .5s ease;
+    		-o-transition: all .5s ease;
+    		transition: all .5s ease;}
+      .return:hover{
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);}
+
+
+
+.presentacion{
+	width:100%;
+	height:700px;
+	background-color:white;}
+	.info{
+	width:100%;
+	height:700px;
+	background-image:url(../img/portada.png);
+	background-size:cover;
+  background-position: right;
+  background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-filter: grayscale(.5);
+	-o-filter: grayscale(.5);
+	filter: grayscale(.5);}
+	.texto{
+	color:white;
+	text-align:center;}
+		.uno{
+		font-size:40px;
+		font-family:roboto;}
+		.dos{
+		font-size:25px;
+		font-family:roboto;}
+		.tres{
+		font-size:50px;
+		font-family:roboto;}
+		.cuatro{
+		font-family:genial;
+		font-size:15px;}
+		.quinto{
+		font-family:lubri;
+		font-size:50px;}
+.invitacionbase{
+	width:100%;
+	height:100px;
+	background-color:#ccc;}
+	.invitacion{
+		width:100%;
+		height:100px;
+		background-color:#00acc1;
+		display:flex;
+		justify-content:center;
+		align-items:center;}
+		.txt{
+			color:white;
+			text-align:center;
+			font-size:25px;}
+			.txt1{
+			color:white;
+			text-align:center;
+			font-size:30px;}
+
+.h{ z-index:-100;
+	width:100%;
+	height:300px;
+	background-color:#ccc;}
+.hd{width:100%;
+	height:300px;
+	font-family:"roboto";
+	font-size:20px;
+	color:white;
+	background-color:#00acc1;
+	display:flex;
+	align-items:center;
+	justify-content:center;}
+
+.playbase{
+    z-index:-100;
+	width:100%;
+	height:280px;
+	background-color:#ccc;}
+	.play{
+	width:100%;
+	height:280px;
+	font-family:"negro";
+	font-size:20px;
+	color:white;
+	background-color:#00acc1;
+	display:flex;
+	align-items:center;
+	justify-content:center;}
+	.playbutton{
+	color:#00bcd4;
+	background-color:white;
+	font-size:30px;
+	padding-right:50px;
+	padding-left:50px;
+	padding-bottom:10px;
+	padding-top:10px;
+	-webkit-border-radius:55px;
+	-o-border-radius:55px;
+	-ms-border-radius:50px;
+	-moz-border-radius:50px;
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;}
+		.playbutton:hover{
+    	box-shadow:1px 0px 10px #000;}
+
+.siguenosbase{
+  width:100%;
+  height:100px;
+  background-color:#ccc;}
+  .siguenos{
+    width:100%;
+    height:100px;
+    background-color:#00838f;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;}
+    .siguenosecundario{
+      width:100%;
+      height:300px;
+      background-color:#00838f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 90px;}
+      .siguenosecundario > a{
+        font-family: roboto;
+        font-size:20px;
+        background-color: white;
+        color: #00838f;
+        text-decoration: none;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top:15px;
+        padding-bottom:15px;
+        -webkit-border-radius:50px;
+      	-o-border-radius:50px;
+      	-ms-border-radius:50px;
+      	-moz-border-radius:50px;
+        -webkit-transition: all .5s ease;
+      	-o-transition: all .5s ease;
+      	transition: all .5s ease;}
+        .siguenosecundario > a:hover{
+          box-shadow:1px 0px 10px #000;}
+          .siguenos1{
+            width:100%;height:100px;
+            background-color:#0097a7;color: white;
+            display:flex;align-items: center;justify-content: center;}
+.col{
+  background-color:#0097a7;}
+
+.licenciabase{
+  width:100%;
+  height: 100px;
+  background-color:#006064;}
+  .licencia{
+    width: 100%;
+  height: 100px;
+  font-size:13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+
+
+/*aqui van los adaptadores para tableta electronica*/
+
+    @media (max-width: 288px) {
+}
+
+@media (min-width: 400px) {
+
+
+.presentacion{
+	width:100%;
+	height:750px;
+	background-color:white;}
+	.info{
+	width:100%;
+	height:750px;
+	background-image:url(../img/portada.png);
+	background-size:cover;
+  background-position: right;
+  background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-filter: grayscale(.5);
+	-o-filter: grayscale(.5);
+	filter: grayscale(.5);}
+
+	.container, .ism-img-frame, .ism-slider, .container .ism-slides, .ism-frame, .ism, .hd,.h  
+{display:none;}}

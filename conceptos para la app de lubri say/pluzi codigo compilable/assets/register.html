@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pluzi.</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" type="image/png" href="img/LOGO1.png" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!--Hasta esta parte terminan los enlaces para los archivos externos necesarios para el buen funcionamiento.-->
+
+
+<!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section class="menu_fixed_on" id="sectionMenu">
+		
+	<header class="menu_container">
+		<div class="menu_logo flow-text">
+			<img class="responsive-img" src="img/LOGO1.png" width="35px">&nbsp; Lubrisy
+		</div>
+
+	<div class="menu_options row">
+		<div class="col s0 m0 l3 menu_options_option btn waves-effect waves white blue-text hide-on-med-and-down hoverable">Registrate.</div>
+		<div class="col s0 m0 l3 menu_options_option btn waves-effect waves white blue-text hide-on-med-and-down hoverable">Pro.</div>
+		<div class="col s0 m0 l3 menu_options_option hide-on-med-and-down white-text">Conocenos.</div>
+	</div>
+
+<!--Este el menu para moviles, en esta parte se tiene el boton solo de las opciones el codigo esta en la linea 51-->
+				 
+
+
+<!--Inicio de menu dinamico///// en esta seccion podemos encontrar los diferentes apartados con los que cuenta la aplicación, pero ademas podemos desplegar todo dentro de la misma pagina de contenidos dinamicos//////////////-->
+
+<!--OPTIONS-->
+
+
+</section>
+
+<!--Aqui esta el cogigo del menu 51-->
+<ul id="slide-out" class="side-nav z-depth-1">
+    <li><div class="userView">
+      <div class="background">
+        <img src="img/PLUZI_MAYOR.png">
+      </div>
+      <a href="#!user"><img class="responsive-img" src="img/LOGO1.png"></a>
+   
+
+    </div></li>
+    <li><a class="waves-effect" href="#!">Registrate.</a></li>
+    <li><a class="waves-effect blue white-text z-depth-3" href="#!">Vuelvete PRO.</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#!">Conocenos</a></li>
+    <li><a class="waves-effect blue-text flow-text" href="#!"><i class="icon-facebook4 blue-text"></i>Facebook.</a></li>
+    <li><a class="waves-effect blue-text flow-text" href="#!"><i class="icon-instagram4 blue-text"></i>Instragram.</a></li>
+  </ul>
+
+
+<!--SECTION ONE-->
+
+<div class="title_lb_white flow-text"><br><br></div>
+<div class="title_lb flow-text">Registro de usuarios.</div> <br>
+<div class="title_lb_white flow-text">Recibe las m&aacute;s geniales novedades y sorpresas siendo usuario.</div>
+<div class="marginer z-depth-3">
+
+		<div class="title_lb flow-text z-depth-3">Datos requeridos.</div>
+	<form action="" class="row paddinger">
+		
+
+		 <div class="input-field col s6">
+          <input id="nombre" type="text" class="validate" data-length="20">
+          <label for="nombre">Nombre</label>
+        </div>
+
+         <div class="input-field col s6">
+          <input id="apellido" type="text" class="validate" data-length="20">
+          <label for="apellido">Apellido</label>
+        </div>
+
+        <div class="input-field col s12">
+          <i class="icon-accessibility prefix"></i>
+          <input id="user" type="text" class="validate" data-length="15">
+          <label for="user">Nombre de usuario.</label>
+        </div>
+
+         <div class="input-field col s12">
+          <i class="icon-security prefix"></i>
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="Upps, correo no valido" data-success="Bien">Email</label>
+        </div>
+
+
+		<div class="input-field col s4">
+          <input id="edad" type="text" class="validate" data-length="2">
+          <label for="edad">Edad</label>
+        </div>
+
+        <div class="input-field col s4">
+          <input id="pais" type="text" class="validate">
+          <label for="pais">Pais</label>
+        </div>
+        
+        <div class="input-field col s4">
+          <input id="idioma" type="text" class="validate">
+          <label for="idioma">Idioma</label>
+        </div>
+
+
+</form>
+        <div class="title_lb_white flow-text s12">Terminar registro &nbsp;&nbsp; <a class="btn blue white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+		
+
+		<div class="title_lb flow-text z-depth-3">Ser PRO.</div>
+
+		<form action="" class="row paddinger">
+
+		<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+		<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+         <div class="input-field col s12">
+          <i class="icon-done prefix"></i>
+          <input id="usuarioPay" type="text" class="validate">
+          <label for="usuarioPay">Usuario</label>
+        </div>
+
+
+		 <div class="input-field col s12">
+          <i class="icon-done_all prefix"></i>
+          <input id="cuenta" type="text" class="validate">
+          <label for="cuenta">N&uacute;mero de cuenta.</label>
+        </div>
+
+		</form>
+
+        <div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+
+</div>
+
+<!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
+<!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
+
+<footer class="page-footer blue">
+				 <div class="footer-copyright">
+					 <div class="container">
+					 &#169; &nbsp; 2017 Todos los derechos reservados
+					 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+					 </div>
+				 </div>
+			 </footer>
+
+
+<!--Estos son los scripts de tu archivo-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/comando.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/headroom.min.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pluzi.</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" type="image/png" href="img/LOGO1.png" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!--En estaseccion encontramos el formulario plegable con todo el contenido-->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+
+
+			<form action="" class="row paddinger">
+
+			<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+			<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+	         <div class="input-field col s12 m6 l6">
+	          <i class="icon-done prefix"></i>
+	          <input id="usuarioPay" type="text" class="validate">
+	          <label for="usuarioPay">Usuario</label>
+	        </div>
+
+
+			 <div class="input-field col s12 m6 l6">
+	          <i class="icon-done_all prefix"></i>
+	          <input id="cuenta" type="text" class="validate">
+	          <label for="cuenta">N&uacute;mero de cuenta.</label>
+	        </div>
+
+			</form>
+
+	        <div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable"><i class="icon-arrow-right3"></i></a></div>
+
+    </div>
+  </div>
+
+
+
+<!--Hasta esta parte terminan los enlaces para los archivos externos necesarios para el buen funcionamiento y el formulario inalambrico.-->
+
+<!--Boton de la aplcacion que es floating-->
+<div class="fixed-action-btn vertical click-to-toggle">
+	 <a class="btn-floating btn-large blue darken-3">
+		 <i class="icon-plus3"></i>
+	 </a>
+	 <ul>
+		 <li><a class="btn-floating grey pulse"><i class="icon-upload4 blue-text"></i></a></li>
+		  <li><a class="btn-floating blue"><i class="icon-trophy10"></i></a></li>
+		 <li><a class="btn-floating blue"><i class="icon-user3"></i></a></li>
+	 </ul>
+ </div>
+
+
+<!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section class="menu_fixed_on" id="sectionMenu">
+
+	<header class="menu_container row">
+		<div class="menu_logo flow-text col s2 m2 l2">
+			<img class="logo-menu" src="img/LOGO1.png">
+		</div>
+
+	
+		<div class="menu_options col s8 m8 l8 valign-wrapper">
+			<span class="new badge right-align thiner z-depth-3" data-badge-caption="Quickcoins.">&nbsp; 6 <i class="icon-ticket2"></i></span>
+	
+		  </div>
+
+
+
+<!--Este el menu para moviles, en esta parte se tiene el boton solo de las opciones el codigo esta en la linea 51-->
+
+<div class="col s2 m2 l2 menu_options_option2 hide-on-large-only menu-lateral-activador-boton valign-wrapper"><br><i href="#" data-activates="slide-out" class="button-collapse center-align icon-more-vertical flow-text"></i></div>
+</header>
+
+
+<!--Inicio de menu dinamico///// en esta seccion podemos encontrar los diferentes apartados con los que cuenta la aplicación, pero ademas podemos desplegar todo dentro de la misma pagina de contenidos dinamicos//////////////-->
+
+<!--OPTIONS-->
+
+<div id="sectionMenuDos">
+    <div class="row">
+      <ul class="tabs col s12" id="menu_movil">
+        <li class="tab col s4 "><a href="#test1"><i class="icon-home4 flow-text"></i></a></li>
+        <li class="tab col s4 "><a href="#test2"><i class="icon-heart3 flow-text"></i></a></li>
+        <li class="tab col s4 "><a href="#test3"><i class="icon-wind flow-text"></i></a></li>
+  		</ul>
+			<div class="progress preloader">
+					 <div class="indeterminate"></div>
+			 </div>
+
+		</div>
+
+</div>
+</section>
+
+
+<!--Aqui esta el cogigo del menu 51-->
+<ul id="slide-out" class="side-nav menu_lateral-activador">
+	<li><div class="user-view">
+		 <div class="background">
+			 <img src="img/card_three.jpg">
+		 </div>
+		 <a href="#!user"><img class="circle" src="img/card_two.jpg"></a>
+		 <a href="#!name"><span class="white-text name">Usuario_nombre.</span></a>
+		 <a href="#!email"><span class="grey-text email">mail.com</span></a>
+	 </div></li>
+
+	 <li class="no-padding">
+		 <ul class="collapsible collapsible-accordion">
+
+<li>
+			 <nav>
+    <div class="nav-wrapper grey darken-5">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search" ><i class="icon-search3 blue-text"></i></label>
+        </div>
+      </form>
+    </div>
+  </nav>
+</li>
+
+			 <li>
+				 <a class="collapsible-header blue white-text ">Categorias.<i class="icon-expand_more white-text"></i></a>
+				 <div class="collapsible-body">
+					 <ul>
+						 <li><a href="#!"><i class="omega icon-monitor brown-text icocall"></i>Tecnolog&iacute;a.</a></li>
+						 <li><a href="#!"><i class="omega icon-activity red-text icocall"></i>Negocios.</a></li>
+						 <li><a href="#!"><i class="omega icon-clock3 orange-text icocall"></i>Productividad.</a></li>
+						 <li><a href="#!"><i class="omega icon-comment-circle green-text icocall"></i>Idiomas.</a></li>
+						 <li><a href="#!"><i class="omega icon-accessibility2 amber-text icocall"></i>Vida.</a></li>
+						 <li><a href="#!"><i class="omega icon-globe2 indigo-text icocall"></i>Cultura.</a></li>
+					<li><a href="#!"><i class="omega icon-check-circle2 blue-text icocall"></i>Matem&aacute;tica.</a></li>
+						 <li><a href="#!"><i class="omega icon-cog3 red-text icocall"></i>Autos.</a></li>
+						 <li><a href="#!"><i class="omega icon-feather pink-text icocall"></i>Literatura.</a></li>
+						  <li><a href="#!"><i class="omega icon-music3 orange-text icocall"></i>M&uacute;sica.</a></li>
+					 </ul>
+				 </div>
+			 </li>
+		 </ul>
+	 </li>
+
+		<li class="grey lighten-2"><a href="#!"><i class="icon-upload4 flow-text green-text darken-5"></i>Subidos.</a></li>
+		<li class="grey lighten-2"><a href="#!"><i class="icon-trophy10 flow-text orange-text darken-5"></i>Logros y puntaje.</a></li>
+		<li class="grey lighten-2"><a href="#!"><i class="icon-user3 flow-text blue-text darken-5"></i>Configurar perfil.</a></li>
+
+
+		<li class="grey"><a href="#!"><i class="icon-comment-square flow-text black-text"></i>Feedback.</a></li>
+		<li class="grey"><a href="#!"><i class="icon-share3 flow-text black-text"></i>Compartir.</a></li>
+		<li class="grey"><a href="#!"><i class="icon-star2 flow-text black-text"></i>Rate us.</a></li>
+
+	</ul>
+	<a href="#" data-activates="slide-out" class="button-collapse"><i class="icon-home"></i></a>
+
+
+
+<!--SECTION ONE-->
+
+<div class="complete"></div>
+  <div id="test1" class="col s12">
+		<div class="slider fullscreen">
+    <ul class="slides">
+		<li>
+        <img src="img/SL-THREE.png"> <!-- random image -->
+        <div class="caption right-align"><br><br><br><br>
+          <h3 class="omega">Aprenda donde sea.</h3>
+          <h5 class="light grey-text text-lighten-3">Descargue contenido offline gratis.</h5>
+					<br>
+					 <a class="btn white blue-text waves-effect waves hoverable" href="#modal1"><i class="icon-arrow-right3"></i></a>
+
+        </div>
+      </li>
+
+      <li>
+        <img src="img/SL-ONE.png">
+        <div class="caption center-align"><br><br><br><br>
+          <h3 class="omega">&iexcl;Conviertase en instructor!</h3>
+          <h5 class="light grey-text text-lighten-3">Gane dinero ense&ntilde;ando a otros.</h5>
+          			<br>
+          			<a class="btn white blue-text waves-effect waves hoverable" href="#modal1"><i class="icon-arrow-right3"></i></a>
+        </div>
+      </li>
+
+      <li>
+        <img src="img/SL-TWO.png"> <!-- random image -->
+        <div class="caption left-align"><br><br><br><br>
+          <h3 class="omega">Aprenda lo que sea.</h3>
+          <h5 class="light grey-text text-lighten-3">Cursos sobre infinidad de temas.</h5>
+          			<br>
+          			<a class="btn white blue-text waves-effect waves hoverable" href="#modal1"><i class="icon-arrow-right3"></i></a>
+
+
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<div class="title_lb_white_large huge z-depth-2">Categorias.</div>
+
+<br>
+
+<div class="container">
+ <div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+  </div>
+  <br><br>
+</div>
+
+
+<div class="title_lb_white_large huge">Super descuentos.</div>
+
+<br>
+
+<div class="container">
+ <div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+  </div>
+  <br><br>
+</div>
+
+<div class="title_lb_white_large huge">Recomendados.</div>
+
+<br>
+
+<div class="container">
+ <div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+    <div class="content z-depth-3 grey lighten-2 border_rounder_bottom border_rounder_top">Content</div>
+  </div>
+  <br><br>
+</div></div>
+
+
+
+<div class="carousel carousel-slider center white" data-indicators="true">
+
+<div class="carousel-item grey lighten-3 conmargin" href="#one!">
+      <h1 class="omega blue-text">&iexcl;Comparta su talento!</h1>
+
+      <section class="pricing-table white border_rounder_top border_rounder_bottom z-depth-5">
+				<div class="pricing-table-cont border_rounder_bottom">
+					<div class="pricing-table-month border_rounder_bottom">
+						<div class="pricing-table-head estandar-title white border_rounder_top border_rounder_bottom">
+							<h2 class="title_lb_white blue darken-4 white-text border_rounder_top thiner">Ventajas.</h2>
+							<div class="white blue-text huge">Conviertase en &nbsp; <b>INSTRUCTOR</b> profesional y <b>gane dinero</b> ense&ntilde;ando lo que le apasione.</div><br>
+						</div>
+						
+					</div></div></section>
+      
+    </div>
+   
+    <div class="carousel-item orange darken-5 white-text conmargin" href="#two!">
+
+<h5 class="white-text">Cuenta normal.</h5>
+      	<section class="pricing-table white border_rounder_top border_rounder_bottom z-depth-5">
+				<div class="pricing-table-cont">
+					<div class="pricing-table-month">
+						<div class="pricing-table-head estandar-title orange darken-3 border_rounder_top">
+							<h2 class="title_lb_amber orange darken-4 white-text border_rounder_top thiner">Estudiante &eacute; instructor.</h2>
+							<div class="title_lb_amber omega">Gratis</div><br>
+						</div>
+						<ul class="pricing-table-list border_rounder_bottom">
+							<li class="thiner orange-text title_lb_white flow-text left-align">Cursos ilimitados.</li>
+							<li class="thiner orange-text title_lb_white orange lighten-4 flow-text left-align">Materiales extras ilimitados.</li>
+							<li class="thiner orange-text title_lb_gray flow-text left-align "><br><span></span>Todos los temas y materias.</li>
+							<li class="thiner orange-text title_lb_white border_rounder_bottom orange lighten-4 flow-text left-align"><span class="orange-text">&nbsp;</span>Publicaci&oacute;n de cursos de paga.</li>
+						
+						</ul>
+					</div></div></section>
+					
+    </div>
+
+    <div class="carousel-item purple darken-1 white-text conmargin" href="#four!">
+    <h5 class="white-text">Cuenta <b class="strong">profesional.</b></h5>
+       	<section class="pricing-table white border_rounder_top border_rounder_bottom z-depth-5">
+				<div class="pricing-table-cont">
+					<div class="pricing-table-month">
+						<div class="pricing-table-head estandar-title purple darken-3 border_rounder_top">
+							<h2 class="title_lb_purple white-text border_rounder_top thiner">Instructor Profesional.</h2>
+							<div class="title_lb_purple purple darken-3 omega"><sup class="thiner">$</sup> &nbsp;4.99&nbsp; <sub class="thiner">USD</sub></div><br>
+						</div>
+						<ul class="pricing-table-list border_rounder_bottom">
+
+						<li class="thiner purple-text title_lb_white flow-text">Mejores precios para sus cursos &nbsp;<b>(x2,x3)</b>.</li>
+						<li class="thiner purple-text title_lb_gray purple lighten-4 flow-text"><br><span></span>Creaci&oacute;n de cursos &nbsp; <b>PREMIUM.</b></li>
+						<li class="thiner purple-text title_lb_white flow-text"><br><span></span>Mejor propaganda para su curso.</li>
+						<li class="thiner purple-text title_lb_white purple lighten-4 flow-text"><span class="purple-text">&nbsp;</span>Material de regalo.</li>
+							<li class="thiner purple-text title_lb_white border_rounder_bottom flow-text"><span class="light-green-text">&nbsp;</span>Sin anuncios.</li>
+						
+						</ul>
+					</div></div></section>
+    
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white pulse center-align"><i class="icon-shopping-cart blue-text"></i></a>
+    </div>
+    </div>
+  </div>
+		
+
+
+<footer class="page-footer blue conmargin">
+				 <div class="footer-copyright">
+					 <div class="container">
+					 &#169; &nbsp; 2017 Todos los derechos reservados
+					 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+					 </div>
+				 </div>
+			 </footer>
+
+</div>
+
+<!--SECTION TWO///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div id="test2" class="col s12 m12 l12">
+<!--Aqui termina el primer slider con los logos-->
+
+<!--Aqui empieza el otro slider-->
+<!--MOTOR////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div class="title_lb z-depth-0">Autom&oacute;vil.</div>
+
+ <div class="carousel carousel-slider carousel-fixed-item center" data-indicators="true">
+    <div class="carousel-item white white-text conmargin" href="#one!">
+   	<div class="title_lb_white z-depth-0"><h5>Motor.</h5></div>
+
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_1">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Motor</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Motor.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Hola, aqui podras hallar toda la info referente a motores de combusti&oacute; interna que para que conozcas a detalle como es que funciona y que mantenimiento b&aacute;sico requiere.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Motor m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">Historia.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-hist-0.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Funcionamiento.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-func-0.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Mantenimiento.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-manto-0.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Frenos///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="carousel-item white white-text conmargin" href="#two!">
+      	<div class="title_lb_white z-depth-0"><h5>Frenos.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_2">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Frenos.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Frenos.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los compone_4_3ntes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Freno m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">Propósito.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Disco.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Tambor.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">De emergencia.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Rectificado.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Clasificación.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Suspensión///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="carousel-item white white-text conmargin" href="#three!">
+     	<div class="title_lb_white z-depth-0"><h5>Suspensi&oacute;n.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_3">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Suspensi&oacute;n.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Suspensi&oacute;n.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los compone_4ntes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i> M&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Dirección///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<div class="carousel-item white white-text conmargin" href="#four!">
+     <div class="title_lb_white z-depth-0"><h5>Direcci&oacute;n.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_4">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Direcci&oacute;n.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Direcci&oacute;n.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los componentes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Direcci&oacute;n m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+
+
+ </div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="title_lb z-depth-0">Lubricantes.</div>
+<div class="carousel carousel-slider carousel-fixed-item center" data-indicators="true">
+	 <div class="carousel-item white white-text conmargin" href="#one!">
+	 <div class="title_lb_white z-depth-0"><h5>Aceites sint&eacute;ticos.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_5">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Aceites sint&eacute;ticos.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Aceites sint&eacute;ticos.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Aprende todo los necesario sobre los tipos de aceite, funci&oacute;n e importancia.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-sinteticos-funcion.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Caracter&iacute;sticas.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-sinteticos-caracteristicas.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Conceptos relacionados.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="conceptos-relacionados.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Frenos///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	 <div class="carousel-item white white-text conmargin" href="#two!">
+			 <div class="title_lb_white z-depth-0"><h5>Aceites minerales.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_6">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Aceites minerales.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Aceites minerales.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Conoce acerca de los aceites sinteticos, como es que se emplean y mucho m&aacute;s.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-minerales-funcion.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Conceptos relacionados.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="conceptos-relacionados.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Suspensión///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	 <div class="carousel-item white white-text conmargin" href="#three!">
+		 <div class="title_lb_white z-depth-0"><h5>Grasas.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_7">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Grasas.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Grasas.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Aqui aprenderemos todo acerca de grasas y como es que estas pueden ser utilizadas y cual es su clasificaci&oacute;n.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-funcion.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Baleros.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-baleros.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Chasis.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-chasis.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align truncate">Juntas.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-juntas.html" target="_blank"><i class="icon-arrow-right3"></i></a></div><br>
+	 <br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="conmargin">
+	<blockquote>
+		Con solo 1 dolar lo que te costara ser todo un pro!
+	</blockquote>
+ <div class="col s12 m12 l12 title_lb_white flow-text">Se PRO &nbsp;&nbsp;<a href="#modal1" class="btn blue white-text waves-effect waves hoverable"><i class="icon-arrow-right3"></i></a></div>
+
+</div>
+
+<!--Footer///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+	<footer class="page-footer blue">
+						 <div class="footer-copyright">
+							 <div class="container">
+							 &#169; &nbsp; 2017 Todos los derechos reservados
+							 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+							 </div>
+						 </div>
+					 </footer>
+
+  </div>
+
+
+
+
+<!--SECTION THREE/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div id="test3" class="col s4 m4 l4">
+			<div class="row  z-depth-0">
+
+
+				<!--Aqui termina el primer slider con los logos-->
+
+<!--Aqui empieza el otro slider--><br>
+<div class="title_lb_white z-depth-0"><h5>Unete a la comunidad.</h5></div>
+
+<div>
+<form action="" class="row paddinger">
+
+			<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+			<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+					 <div class="input-field col s12 m6 l6">
+						<i class="icon-done prefix"></i>
+						<input id="usuarioPay" type="text" class="validate">
+						<label for="usuarioPay">Usuario</label>
+					</div>
+
+
+			 <div class="input-field col s12 m6 l6">
+						<i class="icon-done_all prefix"></i>
+						<input id="cuenta" type="text" class="validate">
+						<label for="cuenta">N&uacute;mero de cuenta.</label>
+					</div>
+
+			</form>
+			</div>
+
+			<div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable"><i class="icon-arrow-right3"></i></a></div>
+			<br><br><br><br><br>
+
+
+</div>
+
+<!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
+<!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
+
+<footer class="page-footer blue">
+						 <div class="footer-copyright">
+							 <div class="container">
+							 &#169; &nbsp; 2017 Todos los derechos reservados
+							 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+							 </div>
+						 </div>
+					 </footer>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/comando.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/headroom.min.js"></script>
+
+	</body>
+</html>

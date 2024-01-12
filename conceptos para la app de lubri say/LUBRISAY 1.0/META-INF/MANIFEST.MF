@@ -1,0 +1,420 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: assets/css/fonts/icomoon.woff
+SHA1-Digest: ishoFb9lR8XH7KjdeJIOxGj195o=
+
+Name: assets/img/frt16.png
+SHA1-Digest: HVyHS1CwIb5Ro6T7r41KyGAJ7lI=
+
+Name: assets/Gchasis.html
+SHA1-Digest: F8bU2bIbG1n4Sddxyt9pNOXY6oE=
+
+Name: assets/img/asc3.png
+SHA1-Digest: FMpigyeyit7kBmTrSYhQi5QYJvc=
+
+Name: assets/img/AMC4.png
+SHA1-Digest: WkFspYIB8u0ALwU8G9YX9oYwx5w=
+
+Name: assets/img/AMC2.png
+SHA1-Digest: FhnxRRbpA//XcnHdnJkKjb6iAO8=
+
+Name: assets/img/baleros1.png
+SHA1-Digest: SUPHWgin5Wc5ZL9cNqdrCpdryY4=
+
+Name: assets/font/fuente.ttf
+SHA1-Digest: 2TMj9uxs6x1UjEGmFi486gFrqCQ=
+
+Name: res/drawable/exit.png
+SHA1-Digest: OHTnKBBrtQEOMIwaUexWezw5hIc=
+
+Name: assets/img/asc1.png
+SHA1-Digest: N8k2Vif7jTAhNS7y5LIe9MIR7U8=
+
+Name: assets/img/frt7.png
+SHA1-Digest: v1Jsn/jhCNQ7xJwuZ2H5l1m2wE8=
+
+Name: assets/font/DancingScript-Regular.ttf
+SHA1-Digest: EphoajUQ213Jmhpzhy4EVBEqYm4=
+
+Name: assets/img/chasis.png
+SHA1-Digest: nj+ZZjOranVjsuAfjRp8+vDfChg=
+
+Name: assets/Gbaleros.html
+SHA1-Digest: bdpngagpHXZtv1ahXVKbj5fS51k=
+
+Name: assets/css/estilos2.css
+SHA1-Digest: 0gpWhuel3cBRfWfwEJg7yWjCEqc=
+
+Name: assets/img/nrm.png
+SHA1-Digest: NPdDPim3UzFvAkgmW687sLC3JDU=
+
+Name: assets/fuentes.html
+SHA1-Digest: 22lX8dzrmlFbL5O/zAjhzul7jG4=
+
+Name: assets/ism/image/slides/2.png
+SHA1-Digest: lFkyG0KqjlaqtoGC07KkK1EVZBY=
+
+Name: assets/error.html
+SHA1-Digest: 8b/RxzrL+0W8cKSHOn7eGrZ6eHs=
+
+Name: assets/font/Raleway-Regular.ttf
+SHA1-Digest: 4ZmqZTdY1+a/RDOWMp/N2A+X3AE=
+
+Name: assets/css/estilos.css
+SHA1-Digest: 96yVrNJHD6FcZM1+OYN/7J9YVbs=
+
+Name: assets/img/amg2.png
+SHA1-Digest: hsSL/SpMRxh0IJmsh+o9aLDc/7Y=
+
+Name: assets/img/frt14.png
+SHA1-Digest: Ah4pxy/6l6bdUHY+YjYzyYgYWLc=
+
+Name: assets/lista de lubricantes.html
+SHA1-Digest: DF3J71P+5darMKtjU/eWyYKf1B8=
+
+Name: resources.arsc
+SHA1-Digest: d4F52tJ5MbvBmABvSEh1MHUWbyw=
+
+Name: assets/css/estiloscarga.css
+SHA1-Digest: QsEjQaZzqrycL4ZmVKjuqflRk0k=
+
+Name: assets/img/frt5.png
+SHA1-Digest: n/hJ1CyprwKAD04Ecw03chy/GAg=
+
+Name: assets/font/cursiva.ttf
+SHA1-Digest: 46hppE3g/mbSpDxRAanHIcMYVVM=
+
+Name: assets/img/nrm2.png
+SHA1-Digest: g3X2ZCuNDhbhUg6pd1p9NZMzAoc=
+
+Name: assets/css/fonts/icomoon.svg
+SHA1-Digest: 9ywxw4HYZkHxrSiwOFlG6KGL6zM=
+
+Name: assets/img/generalidades1.png
+SHA1-Digest: KcZ2rtb5tZCqdGSAhj296+Uf7o8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: lmZnfUWr6Yfe3RiigQF4qyAPRwM=
+
+Name: assets/font/black.ttf
+SHA1-Digest: LjFI0hOxUyjr67oU6Cj7O/eWNO4=
+
+Name: assets/img/Imagen2.png
+SHA1-Digest: 3Bw15KPc+2L+2Ol0d8GSSI29UZw=
+
+Name: assets/img/frt11.png
+SHA1-Digest: inaOmpTyN7V0TbpEH3ihaWxKjU0=
+
+Name: assets/ism/image/slides/3.png
+SHA1-Digest: ZQqu//1W4QYSS7Jakm27hBl7460=
+
+Name: assets/Normas.html
+SHA1-Digest: rxhivS6R2EJOezyOdfUw9IcUlPs=
+
+Name: assets/img/chasis4.png
+SHA1-Digest: tgQz7G465eFKGksQ2EYlDrYWSzY=
+
+Name: assets/img/as2.png
+SHA1-Digest: 2esneyqwVvOJ/qAgCrXgtxxTVA8=
+
+Name: assets/font/lubri.ttf
+SHA1-Digest: tjbqgV+2xbt+WFLElAzNXWLb2rU=
+
+Name: res/layout-v17/activity_main.xml
+SHA1-Digest: XyAel5qDM16DliNFfIbvVc+L5QM=
+
+Name: assets/img/ico.png
+SHA1-Digest: pS4S2WoTe7asCKbkfBwGodnwrOw=
+
+Name: assets/img/gota-de-agua-silueta_318-50280.png
+SHA1-Digest: 23KGN3cyavXmFJXF+4mOFs1KuYU=
+
+Name: res/drawable/about.png
+SHA1-Digest: 9Rzmj+9OZfmOQoOGFO9Ld4XfI3Q=
+
+Name: assets/font/MarckScript-Regular.ttf
+SHA1-Digest: c8riLkbFv/OOUINKGszCVWCgXt0=
+
+Name: assets/img/chasis2.png
+SHA1-Digest: SlGSSnWvnzxFAlzeXqb9xSdVx04=
+
+Name: assets/img/juntash.png
+SHA1-Digest: TOvun+/UeNT0VNX9IVFxOB1saSg=
+
+Name: assets/font/robotomax.ttf
+SHA1-Digest: pvxNnnM5x9nG3ZuZSgDkqWXJHfQ=
+
+Name: assets/404r.html
+SHA1-Digest: ej9pJqI2bGktStOwet2qzDsSA60=
+
+Name: res/menu/menu_main.xml
+SHA1-Digest: mIxjSjRdBvi6gSG+C0V9e21kVCc=
+
+Name: assets/css/fonts/icomoon.eot
+SHA1-Digest: GK0BLiFBRnMP5cPDOYSTNKGRqkI=
+
+Name: assets/img/frt20.png
+SHA1-Digest: bYvrBq1KyWrpc4eGDJKmy5qYk2k=
+
+Name: assets/img/frt18.png
+SHA1-Digest: Dh8u+1DjolT1vFLtHG70/uxL2y8=
+
+Name: assets/Pluzi.html
+SHA1-Digest: fLPF28S+S2uoPwSLIfrtFifHxp8=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: HYp34lJUX/TVVo4AefTwRTX+CMQ=
+
+Name: assets/img/mexico.png
+SHA1-Digest: FYkfusC0zbyEQ91r3sxlE/hpICM=
+
+Name: assets/img/frt2.png
+SHA1-Digest: 49eX90xhQOPPwhv/9saqoycF+iw=
+
+Name: assets/font/GrandHotel-Regular.ttf
+SHA1-Digest: aAlit/gKL1lmzgw0GGvKELDb2vY=
+
+Name: assets/img/generalidades.png
+SHA1-Digest: s5dGXx0R700hIpf5zUi/bmtq668=
+
+Name: assets/img/c.png
+SHA1-Digest: lQAxXjUbbfNAbiQLTDVpQQIrOWg=
+
+Name: assets/img/frt9.png
+SHA1-Digest: AuLfGZi34GutmpwwfvyhdKJY9Yg=
+
+Name: assets/img/juntash2.png
+SHA1-Digest: CTa7vNySVB8jlJOSfMmV+05hHTA=
+
+Name: assets/tablas.html
+SHA1-Digest: ewYv2n/p/Kx1qjC6syQQEGYayGA=
+
+Name: assets/img/asc4.png
+SHA1-Digest: Octz1WmEio1ep55XZY8gQBf7N+4=
+
+Name: assets/font/MontserratAlternates-Regular.ttf
+SHA1-Digest: 3uZby+fCFtkPWL0lA2MOTBE5TUY=
+
+Name: assets/img/mag3.png
+SHA1-Digest: 0OGUaDMWDmLDDEKbMXbhemW62FA=
+
+Name: assets/img/AMC1.png
+SHA1-Digest: cbc/Ultyx3W5BhzNzYWv9qL+CNA=
+
+Name: assets/img/AMC3.png
+SHA1-Digest: kdp35qBwtN+Vj1gcgeU1VCQYOE0=
+
+Name: assets/img/frt15.png
+SHA1-Digest: TeMznCxE/FlwtZb84sy6FUw71FE=
+
+Name: assets/font/Allura-Regular.ttf
+SHA1-Digest: nzZif6Gvq2iIfWPPACq2ZG5ip5g=
+
+Name: assets/img/frt6.png
+SHA1-Digest: 8aAFo3cEuT0SdU9prkvsYKYcC54=
+
+Name: assets/AMclasificacion.html
+SHA1-Digest: NitNnQryIuR6V4tX9zLYTgukSk8=
+
+Name: assets/img/frt4.png
+SHA1-Digest: rpY0YsJtKLqRDBApSaR9Vn4/tnc=
+
+Name: res/drawable/wheel.png
+SHA1-Digest: 3Bw15KPc+2L+2Ol0d8GSSI29UZw=
+
+Name: assets/css/estilos3.css
+SHA1-Digest: IPdH56To+fS/qSfSIhPfJ0PcJk0=
+
+Name: assets/img/portada.png
+SHA1-Digest: J6j6OSc0yr8xc5JPZJ0eF4WmK+4=
+
+Name: assets/ASgeneralidades.html
+SHA1-Digest: c9hCySmTlGerrTd8ouZ3SKx1kQg=
+
+Name: assets/img/asc2.png
+SHA1-Digest: j7flxtUP1BvDtZZHDHBvE4H3JOQ=
+
+Name: assets/font/roboto.ttf
+SHA1-Digest: D9A65I3EiCXHmzRv2YH1WgGs+eE=
+
+Name: assets/img/java.png
+SHA1-Digest: WwhTDlCb/abxKB7cEqLiWwHt9fA=
+
+Name: assets/img/as4.png
+SHA1-Digest: hCAe7Ag3a34XLmgTQaFu36nzM2Q=
+
+Name: assets/img/juntas.png
+SHA1-Digest: CgmXWjNonyIcgOt8KBdS7dCjwDI=
+
+Name: assets/img/frt13.png
+SHA1-Digest: ZMTJO0t7ntlsmxji7vALg+XTm/M=
+
+Name: assets/ism/image/slides/1.png
+SHA1-Digest: n6pNAyoWttd+xGDmSwRkPIiVIH4=
+
+Name: assets/lista.html
+SHA1-Digest: Kk5ejyEonLjqa2FdyXAf7ROoAmY=
+
+Name: assets/img/amg1.png
+SHA1-Digest: iLPn14YRKtZyy56AmefIqzqvp30=
+
+Name: assets/css/style.css
+SHA1-Digest: BZN6yvlY8T9nPD2ol33fHpoSXuQ=
+
+Name: assets/img/all.png
+SHA1-Digest: P6GP+iyfMof9kA9YPNcKKqDLU0A=
+
+Name: assets/img/api.png
+SHA1-Digest: 6WQXyFE9Z/wr818B3Z/nhLl2nbU=
+
+Name: assets/css/animate.css
+SHA1-Digest: W6wBYtv8/QxwG40ISEEaKIwnosI=
+
+Name: assets/img/lubri.png
+SHA1-Digest: OceAQr1BS3csb5tI8qPpN22JFV0=
+
+Name: assets/font/elegante.ttf
+SHA1-Digest: EphoajUQ213Jmhpzhy4EVBEqYm4=
+
+Name: assets/ism/js/ism-2.2.min.js
+SHA1-Digest: tO38466jSgMX9jhIlI3Wx8Z/Ch8=
+
+Name: assets/img/fondo pluzi.jpg
+SHA1-Digest: yawRFyKppsXXdVpMRfP5CA7BkQg=
+
+Name: assets/img/AMC5.png
+SHA1-Digest: MM2W0sD5lf1JM3uyg0Nl3RdO7go=
+
+Name: assets/example.html
+SHA1-Digest: BDYUtZVjBxD2vc+2/0hfcyJxtIs=
+
+Name: assets/index.html
+SHA1-Digest: Aj31mQu0aWUeMcN2vVo8qtcE8Vw=
+
+Name: assets/css/fonts/icomoon.ttf
+SHA1-Digest: gjeyyEvl4suTTJnZB+cMmzbUXIU=
+
+Name: assets/img/generalidades3.png
+SHA1-Digest: EOYAYWsGNUzq+CDO2FgcpTBTX10=
+
+Name: assets/font/Raleway-Thin.ttf
+SHA1-Digest: 8j5GWwWxPmatUOJ2zrii3oMjtWQ=
+
+Name: assets/img/yo.png
+SHA1-Digest: X/usx1zxLNnqty1QzoRx/Y9RTEs=
+
+Name: assets/font/Cookie-Regular.ttf
+SHA1-Digest: oQ1PbQ9CqZLpwrxXPOTybMjrRyU=
+
+Name: assets/img/juntash3.png
+SHA1-Digest: 6ePZgRUn7WSdYwn0d889cMNh+Rg=
+
+Name: assets/img/less.png
+SHA1-Digest: GNswqL/ec5f1k5bk1S+Gl0LYRrc=
+
+Name: assets/img/frt10.png
+SHA1-Digest: 5bUJP3LoazAVHLs/0UWO1apWkoI=
+
+Name: res/drawable/ic_launcher.png
+SHA1-Digest: 3ICAfSgPdca634yTIPkk8dkX410=
+
+Name: assets/img/pithon.png
+SHA1-Digest: gyoUX2FKYP+8tGT82K8+nfVCS0s=
+
+Name: assets/img/generalidades2.png
+SHA1-Digest: TnwDwMna6crBSuE3bqMb85lW6Y0=
+
+Name: assets/img/frt12.png
+SHA1-Digest: Q2Cmv1ZSYaU45WjJ1dsJMjQf1QQ=
+
+Name: assets/Ggeneralidades.html
+SHA1-Digest: T/4ACIaieA5dnljQYEaqKL71aC0=
+
+Name: assets/img/motor.png
+SHA1-Digest: DSkkEA6CAToxYEysqZTXCzzihw8=
+
+Name: assets/img/as3.png
+SHA1-Digest: F3E2zVveykcS54Jvcah3+ao0IXk=
+
+Name: assets/img/jquery.png
+SHA1-Digest: aRP5pficaX7rvhQrJcwsOv12JHo=
+
+Name: res/drawable/splash.png
+SHA1-Digest: JYiLxailF2yPR/G921PrQTMo3Gs=
+
+Name: assets/img/juntash1.png
+SHA1-Digest: kHjrRI75mcZ924iZgP6F0mLTsYE=
+
+Name: assets/font/JosefinSans-Thin.ttf
+SHA1-Digest: qzaCnys1rNtPkYrKBA7zBrk+/GU=
+
+Name: assets/img/chasis3.png
+SHA1-Digest: wyvS5f+IgxppHLcxFoBdRAlwVKE=
+
+Name: assets/img/ico2.png
+SHA1-Digest: O3Pq6T9Y6RYE0+r4cX5GCFMJj/g=
+
+Name: assets/img/frt3.png
+SHA1-Digest: rtUYRJMP3v/BvLBEozla3rYPjP8=
+
+Name: assets/AMgeneralidades.html
+SHA1-Digest: jg9F0arhZqbo0L8zwH3NV/fpUco=
+
+Name: assets/img/chasis1.png
+SHA1-Digest: x2YRWqOHjZQXgIsQF6rPH4+8BTU=
+
+Name: res/layout/spinr.xml
+SHA1-Digest: KnPsPEJo8DNH8Oz1kDfNRnTNzxo=
+
+Name: assets/Gjuntas.html
+SHA1-Digest: Dy4UgqkMJVz3Utz24YR6ZE24dr0=
+
+Name: assets/img/frt8.png
+SHA1-Digest: vbUEc24Lw0UZi3kmBnWwu6cOjhk=
+
+Name: assets/font/Rajdhani-Light.ttf
+SHA1-Digest: i3TiXTOuXcsGPDKXJXFUsEM/Wec=
+
+Name: assets/ASclasificacion.html
+SHA1-Digest: YiiisSs9G5IIcaoQ+tCUDm5/+7g=
+
+Name: assets/img/frt21.png
+SHA1-Digest: VAVY3dJczk4IQfMRAEFOortQrBY=
+
+Name: assets/font/1.ttf
+SHA1-Digest: dxtF8M6yp1LNDXBRh0aOaZP9D7k=
+
+Name: assets/404.html
+SHA1-Digest: 2HzqHLA7zw+upUWmEtTZaeD4NX4=
+
+Name: assets/img/frt17.png
+SHA1-Digest: k0yZ9+BG4OeoeKW2xjwhTB1rjss=
+
+Name: assets/img/baleros.png
+SHA1-Digest: iEHe1PM6bK2PvR6oRe3hZfi75kM=
+
+Name: assets/img/tabla.png
+SHA1-Digest: Htjj7aKYorTqvS9u/3sUyppY5ME=
+
+Name: assets/img/piston.png
+SHA1-Digest: 98cDq3kw0S3WO1ziSUODAeXeeIA=
+
+Name: assets/img/as1.png
+SHA1-Digest: DdftQrkVmFE8t9KgLzseKaqNekk=
+
+Name: assets/lubriSY.html
+SHA1-Digest: SBgFHCgYhUjw7HcUUVeCzqdWCQw=
+
+Name: assets/font/JosefinSans-Regular.ttf
+SHA1-Digest: CON7gOVn3oxZe6uDpNQIXG7JpFg=
+
+Name: classes.dex
+SHA1-Digest: 4vogHlYa5K7YC0ll5oP6PWt2sBQ=
+
+Name: assets/img/frt1.png
+SHA1-Digest: BERUfa3omXhKJw4K4xYp5I+eWZw=
+
+Name: assets/ism/css/my-slider.css
+SHA1-Digest: 8N60CMt4SLnyrInz8Chg3diQzGI=
+

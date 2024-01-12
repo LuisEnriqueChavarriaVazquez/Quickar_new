@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "roboto";
+  src: url("font/roboto.ttf");
+}
+
+@font-face {
+  font-family: "strong";
+  src: url(../fonts/roboto/RobotoCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "thiner";
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "cursive";
+  src: url(../fonts/roboto/timana.ttf) format("truetype");
+}
+
+.thiner {
+  font-family: "thiner";
+  font-size: 14px !important;
+}
+
+.linked {
+  text-decoration: none;
+  color: white;
+}
+
+.linked_b {
+  text-decoration: none;
+  color: #01579b;
+}
+
+.centerer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_code {
+  font-family: "strong";
+}
+.strong {
+  font-family: "strong";
+  font-size: 25px;
+}
+.strongly {
+  font-family: "thiner";
+  font-size: 20px;
+}
+.tiny {
+  font-family: "thiner";
+  font-size: 10px;
+}
+.tinymini {
+  font-family: "thiner";
+  font-size: 4px;
+}
+.huge {
+  font-family: "thiner";
+  font-size: 20px;
+}
+.omega {
+  font-family: "thiner";
+  font-size: 40px;
+}
+.thiner {
+  font-family: "thiner";
+  font-size: 15px;
+}
+.cursiveTiny {
+  font-family: "cursive";
+  font-size: 15px;
+}
+.cursive {
+  font-family: "cursive";
+  font-size: 32px;
+  font-weight: 600;
+}
+.cursiveBIG {
+  font-family: "cursive";
+  font-size: 65px;
+}
+.withoutmarginbottomtop {
+  margin-bottom: 0px;
+  margin-top: -3px;
+}
+.withoutmarginbottomtopprincipal {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.icocall {
+  font-size: 23px;
+}
+.icoReturnLeftMenu {
+  font-size: 40px;
+}
+
+.sub {
+  text-decoration: underline;
+}
+
+.sub::hover {
+  text-decoration: none;
+}
+
+.general_text {
+  text-align: left;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Aqui van los titulos principiles con todas sus clases y variantes.*/
+.title_lb {
+  color: #fff;
+  background-color: #1976d2;
+  text-align: center;
+  padding: 10px;
+  font-family: thiner;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.title_lb_article {
+  color: #757575;
+  background-color: #e0e0e0;
+  font-weight: 900;
+  padding: 10px 10px 10px 20px;
+  font-family: thiner;
+  font-size: 20px;
+  margin-top: 0px;
+  z-index: 1;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.title_lb_article_textDown {
+  font-size: 15px !important;
+  color: #9e9e9e;
+  height: 40px !important;
+  text-align: left !important;
+  position: unset;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: row;
+}
+
+.title_lb_white {
+  color: #01579b;
+  height: 35px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.title_lb_white_path {
+  color: #01579b;
+  font-family: thiner;
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.title_lb_white_large {
+  color: rgb(255, 255, 255);
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  padding: 20px 10px 10px 20px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+.title_lb_gray {
+  color: #263238;
+  height: 35px;
+  background-color: #f5f5f5;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 3px;
+}
+.title_lb_blue {
+  color: #fff;
+  background-color: #01579b;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 3px;
+}
+
+/*Para textos*/
+
+.title_lb_gray_path {
+  color: #263238;
+  background-color: #eceff1;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+}

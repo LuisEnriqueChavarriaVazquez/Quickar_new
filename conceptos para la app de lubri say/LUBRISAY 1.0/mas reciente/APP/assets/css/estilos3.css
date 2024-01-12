@@ -1,0 +1,184 @@
+@font-face {
+  font-family: roboto;
+  src: url(../font/roboto.ttf) format("truetype"); }
+@font-face {
+  font-family: robotomax;
+  src: url(../font/robotomax.ttf) format("truetype"); }
+@font-face {
+  font-family: elegante;
+  src: url(../font/elegante.ttf) format("truetype"); }
+@font-face {
+  font-family: cursiva;
+  src: url(../font/cursiva.ttf) format("truetype"); }
+@font-face {
+  font-family: negro;
+  src: url(../font/black.ttf) format("truetype"); }
+@font-face {
+    font-family: genial;
+    src: url(../font/JosefinSans-Regular.ttf) format("truetype"); }
+
+/*general things*/
+
+  *{padding:0;
+	margin:0;}
+
+  .enlace{
+	text-decoration:none;
+	color:white;}
+
+  .ce2{color:#757575;}
+
+  .enlace1{
+  text-decoration:none;
+  color:gray;}
+
+.menubase{display:flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	background-color:#000;
+	width:100%;
+	height:60px;}
+	.menu{
+	 /*fixed is  here*/
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	height:60px;
+	background-color:#37474f;}
+		.option{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		width:8000px;
+		height:60px;
+		background-color:#263238;
+		color:white;
+		font-size:20px;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;}
+		.option:hover{
+		background-color:#37474f;}
+      .return{
+        font-size:25px;
+        padding: 25px;
+        -webkit-transition: all .5s ease;
+    		-o-transition: all .5s ease;
+    		transition: all .5s ease;}
+      .return:hover{
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);}
+
+/*all body*/
+
+.primero{
+  width:100%; height:50px;
+  display:flex; justify-content: center; align-items:center;
+  background-color:#263238;}
+.segundo{
+  width:100%; height:450px;
+  display:flex; justify-content: center; align-items:center;
+  background-color:#263238;}
+.cool{
+  font-size:30px; font-family:negro; color:white;}
+.tercero{
+  width:100%; height:200px; display:flex; justify-content: center;
+  align-items:center;
+  background-color:#37474f;}
+.cool2{
+  font-size:20px; font-family:negro; color:white; text-align:center;}
+.yo{
+  width:125px; height:150px; border-radius:15px;}
+.cuarto{
+  width:100%; height:100px; display:flex; justify-content: center;
+  align-items:center;
+  background-color:#37474f;}
+.mensaje{
+  font-family:elegante; color:#fff; font-size:40px;}
+.mensaje1{
+    font-family:genial; color:#fff; font-size:40px;}
+.icon-lift{
+font-size:60px;}
+.quinto{
+  width:100%; height:200px; display:flex; justify-content: center;
+  align-items:center;
+  background-color:#cfd8dc;}
+.cool3{
+  font-size:20px; font-family:negro; color:#263238; font-weight:light; text-align:center;
+  display:flex; align-items:center; justify-content:center;}
+.sexto{
+  width:100%; height:90px; display:flex; justify-content: center;
+  align-items:center;
+  background-color:#b0bec5;}
+.primero{
+  width:100%; height:50px;
+  display:flex; justify-content: center; align-items:center;
+  background-color:#263238;}
+
+  .s{height:100px;}
+  .ss{height:80px;}
+  .sss{height:300px;}
+  .ssss{height:200px;}
+
+.foto{border-radius:50px;}
+
+.vamos{padding-right:60px; padding-left:60px; padding-top:10px; padding-bottom:10px;
+background-color:#fff; color:#263238;
+display:flex; align-items:center; justify-content:center;
+border-radius:10px; font-size:20px; font-family:negro;}
+
+.modify{
+  background-color:#90a4ae;
+  color:#263238;}
+.icon-develop, .icon-terminal3{
+  font-size:60px;}
+
+
+
+@media (max-width: 288px) {
+
+.cool2, .cool3{
+font-size:16px;}
+}
+.segundo{
+height:300px;}
+
+.mensaje, .mensaje1{
+  font-size:26px;
+}
+
+.ssss{
+  height:100px;
+}
+
+.sss{
+  height:200px;
+}}
+
+@media (min-width: 500px) {
+
+  .cool2, .cool3{
+font-size:30px;}
+}
+.segundo{
+height:300px;}
+
+.mensaje, .mensaje1{
+  font-size:30px;
+}
+
+.ssss{
+  height:100px;
+}
+
+.sss{
+  height:200px;
+}
+}

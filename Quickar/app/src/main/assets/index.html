@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pluzi</title>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" type="text/css" href="css/bottomNavigation.css">
+  <link rel="stylesheet" type="text/css" href="css/fuentes.css">
+
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+</head>
+
+<body class=" blue darken-3">
+
+
+  <!-- menu del index -->
+
+  <ul id="slide-out" class="side-nav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="img/imagenBanner.png">
+        </div>
+        <a href="#!user"><img class="circle-mid z-depth-2" src="img/logo.png"></a>
+        <a href="#!name"><span class="white-text name">Quickar 10.1</span></a>
+        <a href="#!email"><span class="white-text email">by Mina Studio</span></a>
+      </div>
+    </li>
+
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header  z-depth-3">Contenidos<i class="icon-arrow_drop_down icon_menu_size"></i></a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="obd_genericos.html">OBDII<span
+                    class="new badge blue accent-3" data-badge-caption="C&oacute;digos.">200+</span></a></li>
+              <li><a href="piezas-seleccion.html">Sensores</a></li>
+              <li><a href="temas-seleccion.html">Temas</a></li>
+              <li><a href="temas-seleccion.html">Soluciones</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Extras</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar"><i
+          class="icon-stargrade icon_menu_size orange-text"></i>¿Qu&eacute; le parece Quickar?</a></li>
+    <li><a href="http://play.google.com/store/apps/dev?id=7152460370857113005"><i
+          class="icon-googleplay icon_menu_size"></i>Otras apps</a></li>
+    <!-- <li><a href="http://play.google.com/store/apps/dev?id=7152460370857113005"><i class="icon-info icon_menu_size blue-grey-text"></i>Ayuda</a></li> -->
+
+
+  </ul>
+
+  <!-- Modal Structure -->
+
+  <!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section class="menu_fixed_on fixed" id="sectionMenu">
+
+    <header class="menu_container row blue darken-2 z-depth-1">
+      <div class="col s2 m2 l2 menu_options_option2 menu-lateral-activador-boton valign-wrapper"><a href="#"
+          data-activates="slide-out" class="button-collapse"><i
+            class="icon-menu icon_menu_size center-align white-text"></i></a>
+      </div>
+      <div class="menu_options col s8 m8 l8">
+        <a href="index.html" class="linked_b">
+          <p class="center cursive withoutmarginbottomtop white-text">Quickar</p>
+        </a>
+      </div>
+      <div class="col s2 m2 l2 menu_options_option2 hide-on-large-only menu-lateral-activador-boton valign-wrapper"><br>
+        <a class='dropdown-button' href='#' data-activates='dropdown1'><i
+            class="center-align icon-more_vert white-text icon_menu_size"></i></a>
+      </div>
+
+      <div class="nav-wrapper row light-blue darken-4 paddingerBrowser  z-depth-2">
+        <form class="white col s12 m12 l12 z-depth-1 border_all_search">
+          <div class="input-field">
+            <input id="search" class="input-search" type="search" required autocomplete="off"
+              placeholder="Busca temas y partes.">
+            <label class="label-icon" for="search"><i class="icon-search thiner"></i></label>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <ul id='dropdown1' class='dropdown-content z-depth-3'>
+          <li><a href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar"
+              class="black-text waves-effect">Calificar la app</a></li>
+          <li class="divider"></li>
+          <li><a href="http://play.google.com/store/apps/dev?id=7152460370857113005"
+              class="black-text waves-effect">M&aacute;s apps</a></li>
+        </ul>
+      </div>
+
+      <div class="content-search">
+        <div class="content-table">
+          <table id="table-style" class="z-depth-2 search-table">
+            <thead>
+              <tr class="title-table">
+                <td class="title-table"></td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td><a href="menu_engrase.html">Aceites</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_carburacion.html">Carburaci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_combustion_interna.html">Combusti&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_combustion_interna.html">Ciclo OTTO</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_direccion.html">Direcci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_distribucion.html">Distribuci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_engrase.html">Engrase</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_frenos.html">Frenos</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_motor.html">Motor</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Neumaticos</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Llantas</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Ruedas</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Refrigeraci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Enfriamiento</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Refrigerante</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Calentamiento</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_seguridad.html">Prevenci&oacute;n y cuidado</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_seguridad.html">Seguridad</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_suspension.html">Suspensi&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_transmision.html">Transmisi&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_cambio_aceite.html">Cambio de aceite</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_MAF.html">Sensor MAF</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_MAP.html">Sensor MAP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_oxigeno.html">Sensor de Oxigeno</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_TPS.html">Sensor TPS</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_CKP.html">Sensor CKP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_CMP.html">Sensor CMP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_ECT.html">Sensor ECT</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_EGR.html">V&aacute;lvula EGR</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_IAC.html">V&aacute;lvula IAC</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_IAT.html">Sensor IAT</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_KS.html">Sensor KS</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_relevadores.html">Relevadores</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_evaporativo.html">Sistema evaporativo</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_piston.html">Pist&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_radiador.html">Radiador</a></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="progress" id="cargador">
+        <div class="indeterminate"></div>
+      </div>
+
+      <!--Este el menu para moviles, en esta parte se tiene el boton solo de las opciones el codigo esta en la linea 51-->
+
+    </header>
+
+
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////En esta seccion comienza el slider para marcas de codigos de FALLA OBDII-->
+
+
+  <br><br><br><br><br><br>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////En esta seccion comienza el slider para marcas de codigos de FALLA OBDII-->
+  
+  <div class="title_lb_white_large">Contenidos</div>
+  <div class="carru contank_zero blue darken-3">
+
+    <!-- Primer item -->
+    <!-- <div class="margin-down-bigger">
+
+      <div class="wrapper">
+        <a href="soluciones.html">
+          <div class="clash-card wizard">
+            <div class="clash-card__image clash-card__image--wizard">
+              <img src="img/backgrounds/element4.png" alt="wizard" />
+            </div>
+            <div class="clash-card__unit-name">Soluciones</div>
+            <div class="clash-card__unit-description black-text left-align">
+              En esta sección encontraras muchos articulos sobre mantenimiento en general para los vehículos.
+            </div>
+          </div>
+        </a>
+      </div> 
+
+    </div> -->
+
+    <!-- Segundo item -->
+    <div class="margin-down-bigger">
+
+      <div class="wrapper">
+        <a href="temas-seleccion.html">
+          <div class="clash-card goblin">
+            <div class="clash-card__image clash-card__image--goblin">
+              <img src="img/backgrounds/element2.png" alt="goblin" />
+            </div>
+            <div class="clash-card__unit-name">Teoría</div>
+            <div class="clash-card__unit-description black-text left-align">
+              En esta sección podras aprender conceptos teóricos básicos sobre el funcionamiento de los vehículos desde
+              0.
+            </div>
+          </div> <!-- end clash-card goblin-->
+        </a>
+      </div> <!-- end wrapper -->
+
+    </div>
+
+    <!--MORE-->
+
+    <div class="margin-down-bigger">
+
+      <div class="wrapper">
+        <a href="obd_genericos.html">
+          <div class="clash-card giant">
+            <div class="clash-card__image clash-card__image--giant">
+              <img src="img/backgrounds/element3.png" alt="giant" />
+            </div>
+            <div class="clash-card__unit-name">Códigos OBDII</div>
+            <div class="clash-card__unit-description black-text left-align">
+              Realize busquedas de los códigos de falla genéricos más comúnes para aprender sobre sus posibles causas y
+              soluciones.
+            </div>
+          </div> <!-- end clash-card giant-->
+        </a>
+      </div> <!-- end wrapper -->
+    </div>
+
+    <div class="margin-down-bigger">
+      <div class="wrapper">
+        <a href="piezas-seleccion.html">
+          <div class="clash-card archer">
+            <div class="clash-card__image clash-card__image--archer">
+              <img src="img/backgrounds/element1.png" alt="archer" />
+            </div>
+            <div class="clash-card__unit-name">Sensores</div>
+            <div class="clash-card__unit-description black-text left-align">
+              Aquí podras aprender sobre los diversos sensores más comúnes con que los vehículos cuentan y su funcionamiento.
+            </div>
+          </div> <!-- end clash-card archer-->
+        </a>
+      </div> <!-- end wrapper -->
+    </div>
+
+  </div>
+
+
+
+
+  <!--TERCERA parte con contenidos para utilizar-->
+
+  <div class="contank blue-grey lighten-4 row">
+    <div class="title_lb_white_large blue-grey lighten-4 grey-text text-darken-2">Recomendados</div>
+    <!-- Primer item -->
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_MAP.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-light">
+            <img class="activator" src="img/cont/sensor/MAPBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor MAP</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    <!-- Primer item -->
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_oxigeno.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-light">
+            <img class="activator" src="img/cont/sensor/OBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor O2</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    <!-- add -->
+    <div class="col s12 hide-on-med-and-up">
+
+      <a class="linked" href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar">
+        <div class="card wallpaperShowThree extraMargin add z-depth-3">
+          <div class="card-content center-align">
+            <h4 class=" white-text sub  strongly general_text  truncate"><b>Nos interesa tu opini&oacute;n</b></h4>
+
+            <p class="thiner general_text">Cuentanos en la caja de valoraciones que nuevos contenidos te
+              gustar&iacute;a ver!
+            </p>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+
+    <!-- Segundo item -->
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_MAF.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-light">
+            <img class="activator" src="img/cont/sensor/MAFBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor MAF</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- tercer item -->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_TPS.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-light">
+            <img class="activator" src="img/cont/sensor/TPSBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor TPS</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    <div class="col s12 m12 l12 center-align">
+      <a href="piezas-seleccion.html"
+        class="waves-effect btn-large btn white border_all_btn"><span
+          class="txt-button blue-text">Ver más componentes</span>&nbsp;&nbsp;&nbsp;<i
+          class="icon-arrow_forward blue-text"></i></a>
+    </div>
+
+    <div class="title_lb_white_large blue-grey lighten-4 thiner white-text"></div>
+    <div class="title_lb_white_large blue-grey lighten-4 thiner white-text"></div>
+
+  </div>
+
+  <footer class="page-footer navbarbottom alturaFooter light-blue darken-4">
+    <div class="row" id="frow" style="margin-bottom:0px;">
+      <div class="col s12" style="padding-left:0px!important;padding-right:0px!important;">
+        <ul class="tabs tabs-fixed-width alturaFooter transparent white-text">
+          <li class="tabsPuchables tab col s3"><a href="#test2" class="waves-effect waves-light alturaFooter white-text"><p class="alinear"><img src="img/icon/tool.svg" class="moveIconFooter iconFooterStyle" width="18px"><i class="moveTextFooter textFooter truncate">Inicio</i></p></a></li>
+          <li class="tabsPuchables tab col s3"><a href="#test3" class="waves-effect waves-light alturaFooter white-text"><p class="alinear"><img src="img/icon/science.svg" class="moveIconFooter iconFooterStyle" width="18px"><i class="moveTextFooter textFooter truncate">Teoría</i></p></a></li>
+          <li class="tabsPuchables tab col s3"><a href="#test1" class="waves-effect waves-light alturaFooter white-text"><p class="alinear"><img src="img/icon/car.svg" class="moveIconFooter iconFooterStyle" width="18px"><i class="moveTextFooter textFooter truncate">OBD II</i></p></a></li>
+          <li class="tabsPuchables tab col s3"><a href="#test4" class="waves-effect waves-light alturaFooter white-text"><p class="alinear"><img src="img/icon/education.svg" class="moveIconFooter iconFooterStyle" width="18px"><i class="moveTextFooter textFooter truncate">Sensores</i></p></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  </div>
+
+
+  <!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
+  <!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
+
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/buscador.js"></script>
+  <script type="text/javascript" src="js/comando.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/headroom.min.js"></script>
+  <script type="text/javascript" src="owlcarousel/owl.carousel.js"></script>
+  <script src="slick/slick.js"></script>
+
+</body>
+
+</html>

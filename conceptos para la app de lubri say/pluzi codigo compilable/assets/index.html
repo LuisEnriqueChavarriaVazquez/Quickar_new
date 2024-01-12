@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pluzi.</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" type="image/png" href="img/LOGO1.png" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!--En estaseccion encontramos el formulario plegable con todo el contenido-->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+
+
+			<form action="" class="row paddinger">
+
+			<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+			<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+	         <div class="input-field col s12 m6 l6">
+	          <i class="icon-done prefix"></i>
+	          <input id="usuarioPay" type="text" class="validate">
+	          <label for="usuarioPay">Usuario</label>
+	        </div>
+
+
+			 <div class="input-field col s12 m6 l6">
+	          <i class="icon-done_all prefix"></i>
+	          <input id="cuenta" type="text" class="validate">
+	          <label for="cuenta">N&uacute;mero de cuenta.</label>
+	        </div>
+
+			</form>
+
+	        <div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+
+    </div>
+  </div>
+
+
+
+<!--Hasta esta parte terminan los enlaces para los archivos externos necesarios para el buen funcionamiento y el formulario inalambrico.-->
+
+
+<!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section class="menu_fixed_on" id="sectionMenu">
+
+	<header class="menu_container">
+		<div class="menu_logo flow-text">
+			<img class="responsive-img" src="img/LOGO1.png" width="50px">
+		</div>
+
+	<div class="menu_options row">
+		<div class="col s0 m0 l3 menu_options_option btn waves-effect waves white blue-text hide-on-med-and-down hoverable"><a href="register.html">Registrate.</a></div>
+		<div class="col s0 m0 l3 menu_options_option btn waves-effect waves white blue-text hide-on-med-and-down hoverable">Pro.</div>
+		<div class="col s0 m0 l3 menu_options_option hide-on-med-and-down white-text">Conocenos.</div>
+	</div>
+
+<!--Este el menu para moviles, en esta parte se tiene el boton solo de las opciones el codigo esta en la linea 51-->
+
+<div class="col s6 m6 l0 menu_options_option2 hide-on-large-only"><i href="#" data-activates="slide-out" class="button-collapse icon-menu7 flow-text"></i></div>
+</header>
+
+
+<!--Inicio de menu dinamico///// en esta seccion podemos encontrar los diferentes apartados con los que cuenta la aplicación, pero ademas podemos desplegar todo dentro de la misma pagina de contenidos dinamicos//////////////-->
+
+<!--OPTIONS-->
+
+<div id="sectionMenuDos">
+    <div class="row">
+      <ul class="tabs col s12">
+        <li class="tab col s4"><a href="#test1">Inicio.</a></li>
+        <li class="tab col s4"><a href="#test2">Auto.</a></li>
+        <li class="tab col s4"><a href="#test3">Comunidad.</a></li>
+  		</ul>
+			<div class="progress preloader">
+					 <div class="indeterminate"></div>
+			 </div>
+
+		</div>
+
+</div>
+</section>
+
+
+<!--Aqui esta el cogigo del menu 51-->
+<ul id="slide-out" class="side-nav z-depth-1">
+    <li><div class="userView">
+      <div class="background">
+        <img src="img/PLUZI_MAYOR.png">
+      </div>
+      <a href="#!user"><img class="responsive-img" src="img/LOGO1.png"></a>
+
+
+    </div></li>
+    <li><a class="waves-effect blue white-text z-depth-3" href="#modal1" >Vuelvete PRO.</a></li>
+    <li><a class="waves-effect white blue-text" href="index.html">Inicio.</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect disabled" href="#!">Conocenos</a></li>
+    <li><a class="waves-effect blue-text flow-text" href="#!"><i class="icon-facebook4 blue-text"></i>Facebook.</a></li>
+    <li><a class="waves-effect blue-text flow-text" href="#!"><i class="icon-instagram4 blue-text"></i>Instragram.</a></li>
+  </ul>
+
+
+<!--SECTION ONE-->
+<section class="ultra">
+</section>
+  <div id="test1" class="col s12">
+		<div class="slider ">
+    <ul class="slides">
+		<li>
+        <img src="img/SL-THREE.png"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Publica articulos volviendote PRO.</h3>
+          <h5 class="light grey-text text-lighten-3">ingresa a la comunidad.</h5>
+					<br>
+					 <a class="btn white blue-text waves-effect waves hoverable" href="#modal1"><i class="icon-go"></i></a>
+
+        </div>
+      </li>
+
+      <li>
+        <img src="img/SL-ONE.png">
+        <div class="caption center-align">
+          <h3>&iexcl;Sea un PRO de la mec&aacute;nica!</h3>
+          <h5 class="light grey-text text-lighten-3">Aprende de manera facil y r&aacute;pida.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/SL-TWO.png"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Encuentre todo lo que necesita</h3>
+          <h5 class="light grey-text text-lighten-3">Con articulos diversos y tips geniales.</h5>
+
+        </div>
+      </li>
+      <li>
+        <img src="img/SL-FOUR.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>&iexcl;No te compliques!</h3>
+          <h5 class="light grey-text text-lighten-3">Aprende de manera rapida y sencilla.</h5>
+
+        </div>
+      </li>
+			<li>
+				<img src="img/SL-FIVE.png"> <!-- random image -->
+				<div class="caption center-align">
+					<h3>Informaci&oacute; totalmente offline.</h3>
+					<h5 class="light grey-text text-lighten-3">&iexcl;Nunca dejes de aprender!.</h5>
+
+				</div>
+			</li>
+    </ul>
+  </div>
+
+
+
+				<div class="title_lb_white flow-text" id="formulario">Siguenos</div>
+								<div class="contank z-depth-2">
+										<div class="title_lb flow-text z-depth-1">Solo para t&iacute;</div>
+<div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header white"><i class="icon-facebook4 blue-text"></i><i class="icon-instagram4 blue-text"></i></div>
+      <div class="collapsible-body contank_mini"><span>Regalanos un enorme LIKE, mira nuestro repertorio fotogr&aacute;fico y enterate de las mas recientes novedades.</span>
+				<div class="title_lb_white flow-text">Facebook &nbsp;&nbsp; <a class="btn blue white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+				<div class="title_lb_white flow-text">Instagram &nbsp;&nbsp; <a class="btn blue white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+
+</div>
+    </li>
+		<li>
+      <div class="collapsible-header white"><i class="icon-card blue-text pro"></i>Ser Pro.</div>
+      <div class="collapsible-body contank_mini"><span>
+
+			<form action="" class="row paddinger">
+
+			<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+			<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+	         <div class="input-field col s12">
+	          <i class="icon-done prefix"></i>
+	          <input id="usuarioPay" type="text" class="validate">
+	          <label for="usuarioPay">Usuario</label>
+	        </div>
+
+
+			 <div class="input-field col s12">
+	          <i class="icon-done_all prefix"></i>
+	          <input id="cuenta" type="text" class="validate">
+	          <label for="cuenta">N&uacute;mero de cuenta.</label>
+	        </div>
+
+			</form>
+
+	        <div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable pulse"><i class="icon-go"></i></a></div>
+</span></div>
+    </li>
+  </ul>
+</div>
+
+	 	</div>
+
+
+
+<div class="title_lb flow-text" id="formulario">Todo sobre autos.</div>
+
+ <div class="row carousel carousel_shower z-depth-0 transitor">
+ 				<a class="carousel-item" href="#one!"><img src="img/SHOWER_ONE.png"></a>
+				<a class="carousel-item" href="#four!"><img src="img/SHOWER_FOUR.png"></a>
+				<a class="carousel-item" href="#one!"><img src="img/SHOWER_FIVE.png"></a>
+				<a class="carousel-item" href="#two!"><img src="img/SHOWER_TWO.png"></a>
+				<a class="carousel-item" href="#three!"><img src="img/SHOWER_THREE.png"></a>
+				<a class="carousel-item" href="#three!"><img src="img/SHOWER_SIX.png"></a>
+			</div>
+
+
+<div class="contank">
+				<div class="title_lb_white flow-text">&iexcl;Acceda a contenido PRO!</div>
+				<div class="Pluzi row">
+
+			 <div class="col s6 m4 l4">
+			 <center><h3><i class="icon-money_off"></i></h3></center>
+			 <div class="title_lb flow-text z-depth-1">Solo un dolar.</div>
+		 </div>
+		 <div class="col s6 m4 l4">
+			 <center><h3><i class="icon-add4"></i></h3></center>
+			<div class="title_lb flow-text z-depth-1">Sin anuncios</div>
+		 </div>
+		 <div class="col s12 m4 l4">
+			 <center><h3><i class="icon-world"></i></h3></center>
+			<div class="title_lb flow-text z-depth-1">Ingresa a la comunidad.</div>
+	</div></div>
+
+	<blockquote>
+		Con solo 1 dolar lo que te costara ser todo un pro!
+	</blockquote>
+ <div class="col s12 m12 l12 title_lb_white flow-text">Se PRO &nbsp;&nbsp;<a href="#modal1" class="btn blue white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+</div>
+
+<footer class="page-footer blue">
+				 <div class="footer-copyright">
+					 <div class="container">
+					 &#169; &nbsp; 2017 Todos los derechos reservados
+					 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+					 </div>
+				 </div>
+			 </footer>
+
+</div>
+
+<!--SECTION TWO///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div id="test2" class="col s12 m12 l12">
+<!--Aqui termina el primer slider con los logos-->
+
+<!--Aqui empieza el otro slider-->
+<!--MOTOR////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div class="title_lb z-depth-0">Autom&oacute;vil.</div>
+
+ <div class="carousel carousel-slider carousel-fixed-item center" data-indicators="true">
+    <div class="carousel-item white white-text conmargin" href="#one!">
+   	<div class="title_lb_white z-depth-0"><h5>Motor.</h5></div>
+
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_1">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Motor</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Motor.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Hola, aqui podras hallar toda la info referente a motores de combusti&oacute; interna que para que conozcas a detalle como es que funciona y que mantenimiento b&aacute;sico requiere.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Motor m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">Historia.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-hist-0.html" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Funcionamiento.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-func-0.html" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Mantenimiento.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="moto-manto-0.html" target="_blank"><i class="icon-go"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Frenos///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="carousel-item white white-text conmargin" href="#two!">
+      	<div class="title_lb_white z-depth-0"><h5>Frenos.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_2">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Frenos.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Frenos.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los compone_4_3ntes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Freno m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">Propósito.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Disco.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Tambor.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">De emergencia.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Rectificado.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">Clasificación.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Suspensión///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="carousel-item white white-text conmargin" href="#three!">
+     	<div class="title_lb_white z-depth-0"><h5>Suspensi&oacute;n.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_3">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Suspensi&oacute;n.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Suspensi&oacute;n.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los compone_4ntes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i> M&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+ </div>
+</div>
+</div>
+</div>
+
+<!--Dirección///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<div class="carousel-item white white-text conmargin" href="#four!">
+     <div class="title_lb_white z-depth-0"><h5>Direcci&oacute;n.</h5></div>
+
+				<!--first-->
+ 			 <div class="col s12 m12 l4">
+ 			 <div class="card z-depth-3">
+ 			    <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_4">
+
+ 			    </div>
+ 			    <div class="card-content">
+ 			    <span class="activator grey-text text-darken-4 flow-text left">Direcci&oacute;n.</span>
+ 			      <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+ 			      <br> &nbsp;
+ 			    </div>
+ 			    <div class="card-reveal">
+ 			      <span class="card-title grey-text text-darken-4 left-align">Direcci&oacute;n.<i class="material-icons right icon-resize3"></i></span>
+ 			      <p class="black-text left-align">Aprende todo sobre los componentes de frenos y cuan importantes son para mantener a los usuarios seguros, ademas de formas de brindarles mantenimiento.</p>
+
+
+
+ 			      <div>
+	<ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header blue white-text"></i>Direcci&oacute;n m&aacute;s info...</div>
+      <div class="collapsible-body contank_mini row">
+
+      	<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+      	<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align truncate">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+		<br><div class="col s6 m6 l6 flow-text black-text left-align">No disponible.</div>
+		<div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves disabled" target="_blank"><i class="icon-go"></i></a></div><br>
+    </li>
+  </ul>
+</div>
+
+
+
+ </div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="title_lb z-depth-0">Lubricantes.</div>
+<div class="carousel carousel-slider carousel-fixed-item center" data-indicators="true">
+	 <div class="carousel-item white white-text conmargin" href="#one!">
+	 <div class="title_lb_white z-depth-0"><h5>Aceites sint&eacute;ticos.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_5">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Aceites sint&eacute;ticos.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Aceites sint&eacute;ticos.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Aprende todo los necesario sobre los tipos de aceite, funci&oacute;n e importancia.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-sinteticos-funcion.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Caracter&iacute;sticas.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-sinteticos-caracteristicas.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Conceptos relacionados.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="conceptos-relacionados.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Frenos///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	 <div class="carousel-item white white-text conmargin" href="#two!">
+			 <div class="title_lb_white z-depth-0"><h5>Aceites minerales.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_6">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Aceites minerales.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Aceites minerales.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Conoce acerca de los aceites sinteticos, como es que se emplean y mucho m&aacute;s.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="aceites-minerales-funcion.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Conceptos relacionados.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="conceptos-relacionados.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Suspensión///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	 <div class="carousel-item white white-text conmargin" href="#three!">
+		 <div class="title_lb_white z-depth-0"><h5>Grasas.</h5></div>
+
+			 <!--first-->
+			<div class="col s12 m12 l4">
+			<div class="card z-depth-3">
+				 <div class=" activator card-image waves-effect waves-block waves-light z-depth-1 card_font_slider_one_7">
+
+				 </div>
+				 <div class="card-content">
+				 <span class="activator grey-text text-darken-4 flow-text left">Grasas.</span>
+					 <span><a class="btn-floating activator right blue white-text waves-effect waves hoverable"><i class=" icon-resize2"></i></a></span>
+					 <br> &nbsp;
+				 </div>
+				 <div class="card-reveal">
+					 <span class="card-title grey-text text-darken-4 left-align">Grasas.<i class="material-icons right icon-resize3"></i></span>
+					 <p class="black-text left-align">Aqui aprenderemos todo acerca de grasas y como es que estas pueden ser utilizadas y cual es su clasificaci&oacute;n.</p>
+
+
+
+					 <div>
+ <ul class="collapsible popout" data-collapsible="accordion">
+	 <li>
+		 <div class="collapsible-header blue white-text"></i>M&aacute;s info...</div>
+		 <div class="collapsible-body contank_mini row">
+
+			 <br><div class="col s6 m6 l6 flow-text black-text left-align">Funci&oacute;n.</div>
+			 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-funcion.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Baleros.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-baleros.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align">Chasis.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-chasis.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br><div class="col s6 m6 l6 flow-text black-text left-align truncate">Juntas.</div>
+	 <div class="col s6 m6 l6"><a class="btn blue right white-text waves-effect waves" href="grasa-juntas.html" target="_blank"><i class="icon-go"></i></a></div><br>
+	 <br>
+	 </li>
+ </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="conmargin">
+	<blockquote>
+		Con solo 1 dolar lo que te costara ser todo un pro!
+	</blockquote>
+ <div class="col s12 m12 l12 title_lb_white flow-text">Se PRO &nbsp;&nbsp;<a href="#modal1" class="btn blue white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+
+</div>
+
+<!--Footer///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+	<footer class="page-footer blue">
+						 <div class="footer-copyright">
+							 <div class="container">
+							 &#169; &nbsp; 2017 Todos los derechos reservados
+							 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+							 </div>
+						 </div>
+					 </footer>
+
+  </div>
+
+
+
+
+<!--SECTION THREE/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div id="test3" class="col s4 m4 l4">
+			<div class="row  z-depth-0">
+
+
+				<!--Aqui termina el primer slider con los logos-->
+
+<!--Aqui empieza el otro slider--><br>
+<div class="title_lb_white z-depth-0"><h5>Unete a la comunidad.</h5></div>
+
+<div>
+<form action="" class="row paddinger">
+
+			<div class="title_lb_white flow-text">Paga con Paypal. &nbsp; <i class="icon-paypal"></i></div>
+			<div class="title_lb flow-text z-depth-1">1 USD.</div> <br>
+
+					 <div class="input-field col s12 m6 l6">
+						<i class="icon-done prefix"></i>
+						<input id="usuarioPay" type="text" class="validate">
+						<label for="usuarioPay">Usuario</label>
+					</div>
+
+
+			 <div class="input-field col s12 m6 l6">
+						<i class="icon-done_all prefix"></i>
+						<input id="cuenta" type="text" class="validate">
+						<label for="cuenta">N&uacute;mero de cuenta.</label>
+					</div>
+
+			</form>
+			</div>
+
+			<div class="title_lb_white green-text flow-text">Finalizar compra. &nbsp;&nbsp; <a class="btn green white-text waves-effect waves hoverable"><i class="icon-go"></i></a></div>
+			<br><br><br><br><br>
+
+
+</div>
+
+<!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
+<!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
+
+<footer class="page-footer blue">
+						 <div class="footer-copyright">
+							 <div class="container">
+							 &#169; &nbsp; 2017 Todos los derechos reservados
+							 <a class="grey-text text-lighten-4 right" href="#!">Pluzi</a>
+							 </div>
+						 </div>
+					 </footer>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/comando.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/headroom.min.js"></script>
+
+	</body>
+</html>

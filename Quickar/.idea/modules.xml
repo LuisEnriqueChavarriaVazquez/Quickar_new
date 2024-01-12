@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Quickar.iml" filepath="$PROJECT_DIR$/.idea/modules/Quickar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Quickar.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Quickar.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Quickar.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Quickar.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Quickar.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Quickar.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Quickar.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Quickar.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,380 @@
+/*en la parte de arriba estan nuestras fuentes*/
+body,
+html {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+/*Acomodo del icono de corazon*/
+.iconHeartPosition {
+  position: relative;
+  top: 5px;
+  fill: #fff;
+}
+
+/*Sidebar*/
+.ultraUp {
+  z-index: 100000000;
+}
+
+.ultra {
+  padding-top: 100px;
+  background-color: #01579b;
+  width: 100%;
+  height: 100px;
+}
+
+.conmargin {
+  padding: 20px;
+}
+
+.margin-down {
+  margin-bottom: 10px;
+}
+
+.margin-down-bigger {
+  margin-bottom: 10px;
+}
+
+.conmarginslider {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.marginer {
+  margin: 20px;
+}
+
+.paddinger {
+  padding: 20px !important;
+}
+
+.paddingerBrowser {
+  padding: 10px;
+}
+
+.contank {
+  padding: 10px;
+  background: #1e88e5;
+}
+
+.contank_brand {
+  padding-right: 10%;
+  padding-left: 10%;
+  background: #1e88e5;
+}
+
+.contankleftoh {
+  padding-left: 4.5px;
+  padding-right: 0px;
+}
+
+.contankv {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.contank_mini {
+  padding: 10px;
+}
+
+.contank_mini_title {
+  padding: 10px 20px 0px 20px;
+  margin-bottom: 0px;
+}
+
+.contank_zero {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 510px;
+  width: 100%;
+}
+
+.contanker {
+  padding: 20px;
+}
+
+.position {
+  z-index: 1000;
+}
+
+.positionCarr {
+  z-index: 100000;
+}
+
+.logo-menu {
+  width: 35px;
+  height: 35px;
+}
+
+/*Estas son las clases especiales con las que
+contamos dentro de la pagina para diseños especificos.*/
+
+/*Menu styles, todo para decorar el menu de la mejor manera*/
+
+.menu_container {
+  background-color: #eceff1;
+  color: #01579b;
+  height: 50px;
+  width: 100%;
+  padding: 0px;
+}
+.menu_logo {
+  height: 50px;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #01579b;
+  display: flex;
+  justify-content: center;
+}
+.menu_options {
+  height: 50px;
+}
+.menu_options_option2 {
+  padding: 50px;
+  height: 50px;
+  color: #01579b;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lateral-activador {
+  display: none;
+}
+
+.icon_menu_size {
+  font-size: 22px;
+}
+
+/*Efectos adicionales para el menu con super efectos scroleables increibles.*/
+.menu_fixed_on {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 900;
+  background-color: #2980b9;
+}
+
+.headroom {
+  transition: transform 0.5s ease-in-out;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-85%);
+}
+
+.noneBorder{
+  border-radius: 0px !important;
+}
+
+.border_rounder_top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.border_rounder_bottom {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.border_all {
+  border-radius: 15px !important;
+}
+
+.border_all_btn {
+  border-radius: 5px !important;
+}
+
+.border_all_search {
+  border-radius: 5px;
+}
+
+.extraMargin {
+  margin: 10px;
+}
+
+.txt-button {
+  position: relative;
+  top: -3.8px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.txt-button-close {
+  top: -2.9px !important;
+}
+
+/*here is the class from the titles*/
+
+/*here is the class for all the boxes whit great style*/
+.carousel_shower {
+  background-color: #fff;
+  width: 100%;
+}
+
+/*Cambiuo para propiedades de footer dinamico*/
+
+.cards_cont {
+  background-color: #eceff1;
+}
+
+.transitor {
+  transition: all 1s ease;
+}
+
+.preloader {
+  width: 100%;
+  z-index: 1000;
+}
+
+.sliderm {
+  height: 150px;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.container > div {
+  white-space: nowrap;
+  position: relative;
+  transition: all 0.6s ease-in-out;
+}
+
+.content {
+  background: red;
+  display: inline-block;
+  padding: 4em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.elementosSlider {
+  width: 100px;
+  height: 55px;
+  border-radius: 5px;
+  z-index: 2000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  align-ent: center;
+  justify-content: center;
+}
+
+/*Table style from search box*/
+
+#table-style {
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  opacity: 0.95;
+  padding: 0 10px;
+  padding-bottom: 5px;
+  display: none;
+}
+
+.element-table {
+  width: 100%;
+  height: 0px;
+}
+
+tbody tr td a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #737373;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+  display: none;
+}
+
+
+.wallpaperShowTwo {
+  background-image: url("../img/msg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wallpaperShowThree {
+  background-image: url("../img/msg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerInicio {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+
+.bannerInicioComponent {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bannerInicioItem {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wallpaperLogo {
+  background-image: url("../img/PRO-CONTENT/cards/logoBanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.brands-configuration {
+  width: 200px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.brands-configuration-selector {
+  width: 78px;
+  height: 70px;
+  border-radius: 8px;
+  margin: 0px;
+}
+@media (min-width: 460px) {
+  .brands-configuration-selector {
+    width: 105px;
+    height: 97px;
+  }
+}
+
+.code_box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 85px;
+  font-weight: bold;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

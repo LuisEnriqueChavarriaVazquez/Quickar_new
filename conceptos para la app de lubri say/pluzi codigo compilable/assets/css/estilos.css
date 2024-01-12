@@ -1,0 +1,209 @@
+body{
+background-color: #fff;}
+
+.ultra{
+	padding-top: 100px;
+	background-color: #2980b9;
+	width: 100%;
+	height: 100px;}
+
+.conmargin{
+	padding:20px;}
+
+.marginer{
+	margin: 20px;}
+
+.paddinger{
+	padding: 20px;
+}
+
+.contank{
+	padding: 30px;}
+
+.contank_mini{
+	padding: 10px;}
+
+.position{
+	z-index: 1000;}
+
+/*Estas son las clases especiales con las que
+contamos dentro de la pagina para diseños especificos.*/
+
+
+/*Menu styles, todo para decorar el menu de la mejor manera*/
+
+.menu_container{
+	background-color:#2980b9;
+	height: 60px;
+	width: 100%;
+
+	display: flex; align-items: center; justify-content: center; flex-direction: row;}
+	.menu_logo{
+		width: 40%;
+		height: 60px;
+		padding: 5px;
+		color: white;
+		font-size: 20px;
+		display: flex; align-items: center; justify-content: right; flex-direction: row;}
+	.menu_options{
+		width: 60%;
+		height: 60px;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+		.menu_options_option{
+			margin-top: 20px;
+			color:white;
+			display: flex; align-items: center; justify-content: center; flex-direction: row;}
+			.menu_options_option2{
+				margin: 20px;
+				color:white;
+				display: flex; align-items: center; justify-content: center; flex-direction: row;}
+
+
+/*Efectos adicionales para el menu con super efectos scroleables increibles.*/
+.menu_fixed_on{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 900;
+background-color:#2980b9;}
+
+.headroom{
+	transition: transform .4s ease-out;}
+
+.headroom--pinned{
+	transform: translateY(0%);
+
+}
+
+.headroom--unpinned{
+	transform: translateY(-125%);
+}
+
+
+#sectionMenuDos .headroom{
+	transition: transform .4s;}
+
+#sectionMenuDos .headroom--pinned{
+	transform: translateY(0%);
+	z-index: 900;
+}
+
+#sectionMenuDos .headroom--unpinned{
+	transform: translateY(-135%);
+	z-index: 900;
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Aqui van los titulos principiles con todas sus clases y variantes.*/
+.title_lb{
+	color:#fff;
+	height: 60px;
+	background-color:#2980b9;
+	text-align: center;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white{
+		color:#2980b9;
+		height: 60px;
+		background-color:#fff;
+		text-align: center;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_gray{
+		color:#424242;
+		background-color:#eee;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_blue{
+		color:#fff;
+		background-color:#2980b9;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+
+/*here is the class from the titles*/
+
+/*here is the class for all the boxes whit great style*/
+.carousel_shower{
+	background-color:#2980b9;
+width: 100%;}
+
+/*Cambiuo para propiedades de footer dinamico*/
+
+.cards_cont{
+	background-color:#2980b9;
+}
+
+.card_font_slider_one_1{
+	background-image: url('../img/card_one.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_2{
+	background-image: url('../img/card_two.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_3{
+	background-image: url('../img/card_three.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_4{
+	background-image: url('../img/card_four.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+
+.card_font_slider_one_5{
+	background-image: url('../img/card_five.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_6{
+	background-image: url('../img/card_six.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_7{
+	background-image: url('../img/card_seven.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.transitor{
+	transition: all 1s ease;
+}
+
+.preloader {
+width: 100%;
+z-index: 1000;}
+
+.parallax-container {
+      height:100px;
+    }

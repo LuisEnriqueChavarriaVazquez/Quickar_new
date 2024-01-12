@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Pluzi</title>
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
+    <link rel="stylesheet" type="text/css" href="css/bottomNavigation.css">
+    <link rel="stylesheet" type="text/css" href="css/fuentes.css">
+  
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+  </head>
+
+<body class="blue darken-1">
+
+  <!--En esta seccion podemos ver el menu de la parte superior (header), donde podemos apreciar las opciones y extras ////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section class="menu_fixed_on" id="sectionMenu">
+
+    <header class="menu_container row blue darken-2 z-depth-1">
+      <a href="index.html">
+        <div class="col s2 m2 l2 menu_options_option2 hide-on-large-only menu-lateral-activador-boton valign-wrapper">
+          <br>
+          <i class="center-align icon-arrow_back white-text icon_menu_size"></i>
+        </div>
+      </a>
+      <div class="menu_options col s8 m8 l8">
+        <a href="index.html" class="linked_b">
+          <p class="center cursive withoutmarginbottomtop white-text">Quickar</p>
+        </a>
+      </div>
+      <div class="col s2 m2 l2 menu_options_option2 hide-on-large-only menu-lateral-activador-boton valign-wrapper"><br>
+        <a class='dropdown-button' href='#' data-activates='dropdown1'><i
+            class="center-align icon-more_vert white-text icon_menu_size"></i></a>
+      </div>
+
+      <div class="nav-wrapper row light-blue darken-4 paddingerBrowser  z-depth-2">
+        <form class="white col s12 m12 l12 z-depth-1 border_all_search">
+          <div class="input-field">
+            <input id="search" class="input-search" type="search" required autocomplete="off"
+              placeholder="Busca temas y partes.">
+            <label class="label-icon" for="search"><i class="icon-search thiner"></i></label>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <ul id='dropdown1' class='dropdown-content z-depth-3'>
+          <li><a href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar"
+              class="black-text waves-effect">Valora la app</a></li>
+          <li class="divider"></li>
+          <li><a href="http://play.google.com/store/apps/dev?id=7152460370857113005"
+              class="black-text waves-effect">M&aacute;s apps</a></li>
+        </ul>
+      </div>
+
+      <div class="content-search">
+        <div class="content-table">
+          <table id="table-style" class="z-depth-2 search-table">
+            <thead>
+              <tr class="title-table">
+                <td class="title-table"></td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td><a href="menu_engrase.html">Aceites</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_carburacion.html">Carburaci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_combustion_interna.html">Combusti&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_combustion_interna.html">Ciclo OTTO</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_direccion.html">Direcci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_distribucion.html">Distribuci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_engrase.html">Engrase</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_frenos.html">Frenos</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_motor.html">Motor</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Neumaticos</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Llantas</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_neumaticos.html">Ruedas</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Refrigeraci&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Enfriamiento</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Refrigerante</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_refrigeracion.html">Calentamiento</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_seguridad.html">Prevenci&oacute;n y cuidado</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_seguridad.html">Seguridad</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_suspension.html">Suspensi&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_transmision.html">Transmisi&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="menu_cambio_aceite.html">Cambio de aceite</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_MAF.html">Sensor MAF</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_MAP.html">Sensor MAP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_oxigeno.html">Sensor de Oxigeno</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_TPS.html">Sensor TPS</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_CKP.html">Sensor CKP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_CMP.html">Sensor CMP</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_ECT.html">Sensor ECT</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_EGR.html">V&aacute;lvula EGR</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_IAC.html">V&aacute;lvula IAC</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_IAT.html">Sensor IAT</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_KS.html">Sensor KS</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_relevadores.html">Relevadores</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_evaporativo.html">Sistema evaporativo</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_piston.html">Pist&oacute;n</a></td>
+              </tr>
+              <tr>
+                <td><a href="comp_radiador.html">Radiador</a></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="progress" id="cargador">
+        <div class="indeterminate"></div>
+      </div>
+
+      <!--Este el menu para moviles, en esta parte se tiene el boton solo de las opciones el codigo esta en la linea 51-->
+
+    </header>
+
+  </section>
+
+  <!--Segunda parte con contenidos para utilizar-->
+  <br><br>
+
+  <div class="contank blue darken-3 row">
+    <div class="title_lb_white_large blue darken-3 thiner white-text"></div>
+    <div class="title_lb_white_large blue darken-3 thiner white-text"></div>
+    <div class="title_lb_white_large blue darken-3 huge white-text">Sensores</div>
+
+
+
+    <!-- Primer item -->
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="infoSensores.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/basis.jpg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Info básica</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Primer item -->
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_TPS.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/TPSBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor TPS</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- tercer item -->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_MAF.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/MAFBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor MAF</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Cuarto item -->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_MAP.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/MAPBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor MAP</b></h4>
+            <br>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--sexto item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_oxigeno.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/OBANNER.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor O2</b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    
+    <!--septimo item-->
+    
+    <div class="col s6 m3 l2 xl1">
+      
+      <a class="linked" href="comp_CKP.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/ckpForma.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor CKP</b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+      
+    </div>
+    
+    <!-- add -->
+
+    <div class="col s12 hide-on-med-and-up">
+
+      <a class="linked" href="https://play.google.com/store/apps/details?id=com.luisechvzgmail.quickar">
+        <div class="card wallpaperShowTwo extraMargin add z-depth-3">
+          <div class="card-content center-align">
+            <h4 class=" white-text sub  strongly general_text  truncate"><b>Nos interesa tu opini&oacute;n</b></h4>
+
+            <p class="thiner general_text">Cuentanos en la caja de valoraciones que nuevos contenidos te
+              gustar&iacute;a ver!
+            </p>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_CMP.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/cmpForma2.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor CMP</b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_ECT.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/ectForma1.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor ECT. </b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_EGR.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/egrForma1.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor EGR</b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_IAC.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/iacForma2.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>V&aacute;lvula IAC. </b>
+            </h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_IAT.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/IAT1.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor IAT. </b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_KS.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/ksForma.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Sensor KS. </b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    <!--septimo item-->
+
+    <div class="col s6 m3 l2 xl1">
+
+      <a class="linked" href="comp_relevadores.html">
+        <div class="card small z-depth-3">
+          <div class="card-image waves-effect waves-blue">
+            <img loading="lazy" class="activator" src="img/cont/sensor/relevadorDescripcion-01.jpeg">
+          </div>
+          <div class="card-content center-align">
+            <h4 class=" activator grey-text text-darken-4 flow-text center truncate"><b>Relevadores</b></h4>
+            <br>
+          </div>
+        </div>
+      </a>
+
+      <br><br>
+    </div>
+  </div>
+
+  <footer class="page-footer navbarbottom alturaFooter light-blue darken-4">
+    <div class="row" id="frow" style="margin-bottom:0px;">
+      <div class="col s12" style="padding-left:0px!important;padding-right:0px!important;">
+        <ul class="tabs tabs-fixed-width alturaFooter transparent white-text">
+          <li class="tabsPuchables tab col s3"><a class="waves-effect waves-light alturaFooter white-text">
+              <p class="alinear"><img loading="lazy" src="img/icon/tool.svg" class="moveIconFooter iconFooterStyle" width="18px"><i
+                  class="moveTextFooter textFooter truncate">Inicio</i></p>
+            </a></li>
+          <li class="tabsPuchables tab col s3"><a class="waves-effect waves-light alturaFooter white-text">
+              <p class="alinear"><img loading="lazy" src="img/icon/science.svg" class="moveIconFooter iconFooterStyle" width="18px"><i
+                  class="moveTextFooter textFooter truncate">Teoría</i></p>
+            </a></li>
+          <li class="tabsPuchables tab col s3"><a class="waves-effect waves-light alturaFooter white-text">
+              <p class="alinear"><img loading="lazy" src="img/icon/car.svg" class="moveIconFooter iconFooterStyle" width="18px"><i
+                  class="moveTextFooter textFooter truncate">OBD II</i></p>
+            </a></li>
+          <li class="tabsPuchables tab col s3"><a class="waves-effect waves-light alturaFooter white-text active">
+              <p class="alinear"><img loading="lazy" src="img/icon/education.svg" class="moveIconFooter iconFooterStyle"
+                  width="18px"><i class="moveTextFooter textFooter truncate">Sensores</i></p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!--Fin del menu dinamico//////////////////////////////////////////////////////////////////////////////-->
+  <!--aqui podemos encontrar el footer en el cual podemos ver toda la informacion para el cliente y hasta probablemente se puedan poner algunos banners con publicidad o algo por el estilo... FOOTER-->
+
+  <!--Boton de la aplcacion que es floating-->
+
+  <!--<div id="circularMenu" class="circular-menu">
+
+    <a class="floating-btn waves-effect waves-light"
+      onclick="document.getElementById('circularMenu').classList.toggle('active');">
+      <i class="icon-add"></i>
+    </a>
+
+    <menu class="items-wrapper">
+      <a href="temas-seleccion.html" class="menu-item"><img loading="lazy" src="img/icon/tool.svg" class="moveIconFooter iconFooterStyle" width="20px"></a>
+      <a href="piezas-seleccion.html" class="menu-item fa fa-twitter"><i class="icon-time_to_leave"></i></a>
+      <a href="obd_genericos.html" class="menu-item fa fa-google-plus"><i class="icon-settings_input_hdmi"></i></a>
+      <a href="#" class="menu-item fa fa-linkedin"></a>
+    </menu>
+
+  </div>-->s
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/buscador.js"></script>
+  <script type="text/javascript" src="js/comando.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/headroom.min.js"></script>
+  <script type="text/javascript" src="owlcarousel/owl.carousel.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.miniCardContainer {
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.picture {
+  position: relative;
+  height: 100%;
+  width: 35%;
+  background-size: cover;
+  background-position: right;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#bk1 {
+  background-image: url("../img/minicards/b1.jpg");
+}
+
+#bk2 {
+  background-image: url("../img/minicards/b2.jpg");
+}
+
+#bk3 {
+  background-image: url("../img/minicards/b3.jpg");
+}
+
+#bk4 {
+  background-image: url("../img/minicards/b4.jpg");
+}
+
+#bk5 {
+  background-image: url("../img/minicards/b5.jpg");
+}
+
+#bk6 {
+  background-image: url("../img/minicards/b6.jpg");
+}
+
+#bk7 {
+  background-image: url("../img/minicards/b7.jpg");
+}
+
+#bk8 {
+  background-image: url("../img/minicards/b8.jpg");
+}
+
+#bk9 {
+  background-image: url("../img/minicards/b9.jpg");
+}
+
+#bk10 {
+  background-image: url("../img/minicards/b10.jpg");
+}
+
+#bk11 {
+  background-image: url("../img/minicards/b11.jpg");
+}
+
+.nameMiniCard {
+  background-color: white;
+  font-weight: 600;
+  width: 65%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px;
+  font-size: 15px;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.lessMargin {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}

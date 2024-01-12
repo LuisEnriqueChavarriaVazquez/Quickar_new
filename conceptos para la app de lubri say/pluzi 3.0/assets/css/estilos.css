@@ -1,0 +1,304 @@
+
+@font-face {
+    font-family: "strong";
+    src: url(../fonts/roboto/RobotoCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "thiner";
+    src: url(../fonts/roboto/RobotoCondensed-Regular.ttf) format("truetype");
+}
+
+.strong{ font-family: "strong"; font-size: 25px;}
+.huge{ font-family: "thiner"; font-size: 30px;}
+.omega{ font-family: "thiner"; font-size: 40px;}
+.thiner{ font-family: "thiner"; font-size: 20px;}
+.icocall{ font-size: 23px;}
+/*en la parte de arriba estan nuestras fuentes*/
+
+body,html{
+background-color: #fff;
+height: 100%;
+margin: 0;}
+
+
+.ultra{
+	padding-top: 100px;
+	background-color: #01579B;
+	width: 100%;
+	height: 100px;}
+
+.conmargin{
+	padding:20px;}
+
+	.conmarginslider{
+	padding-top:30px;
+	padding-bottom: 30px;}
+
+.marginer{
+	margin: 20px;}
+
+.paddinger{
+	padding: 20px;
+}
+
+.contank{
+	padding: 30px;}
+
+.contank_mini{
+	padding: 10px;}
+
+.position{
+	z-index: 1000;}
+
+.logo-menu{
+  width: 35px;
+  height: 35px;
+}
+
+/*Estas son las clases especiales con las que
+contamos dentro de la pagina para diseños especificos.*/
+
+
+/*Menu styles, todo para decorar el menu de la mejor manera*/
+
+.menu_container{
+	background-color:#ECEFF1;
+	color: #01579B;
+	height: 60px;
+	width: 100%;
+  padding:0px;}
+	.menu_logo{
+		height: 60px;
+		padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+		color: #01579B;
+		display: flex; justify-content: center;}
+	.menu_options{
+
+		height: 60px;}
+			.menu_options_option2{
+				padding: 50px;
+        height: 60px;
+				color:#01579B;
+      display: flex;
+      justify-content:center;}
+
+        .menu-lateral-activador{
+          display: none;
+        }
+
+
+/*Efectos adicionales para el menu con super efectos scroleables increibles.*/
+.menu_fixed_on{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 900;
+background-color:#2980b9;}
+
+.headroom{
+	transition: transform .5s ease-in-out;}
+
+.headroom--pinned{
+	transform: translateY(0%);
+}
+
+.headroom--unpinned{
+	transform: translateY(-120%);
+}
+
+
+#sectionMenuDos .headroom{
+	transition: transform .4s;}
+
+#sectionMenuDos .headroom--pinned{
+	transform: translateY(2%);
+	z-index: 900;
+}
+
+#sectionMenuDos .headroom--unpinned{
+	transform: translateY(-135%);
+	z-index: 900;
+
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Aqui van los titulos principiles con todas sus clases y variantes.*/
+.title_lb{
+	color:#fff;
+	height: 60px;
+	background-color:#01579B;
+	text-align: center;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white{
+		color:#01579B;
+		height: 35px;
+		background-color:#fff;
+		text-align: center;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white_large{
+		color:#01579B;
+		height: 60px;
+		background-color:#fff;
+		text-align: center;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_gray{
+		color:#263238;
+		height: 35px;
+		background-color:#F5F5F5;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_blue{
+		color:#fff;
+		background-color:#01579B;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_amber{
+		color:#fff;
+		height: 28px;
+		background-color:#ef6c00;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_green{
+		color:#fff;
+		height: 28px;
+		background-color:#9e9d24;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_purple{
+		color:#fff;
+		height: 28px;
+		background-color:#4a148c;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+
+
+.border_rounder_top{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;}
+.border_rounder_bottom{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+
+/*here is the class from the titles*/
+
+/*here is the class for all the boxes whit great style*/
+.carousel_shower{
+	background-color:#fff;
+width: 100%;}
+
+/*Cambiuo para propiedades de footer dinamico*/
+
+.cards_cont{
+	background-color:#ECEFF1;
+}
+
+.card_font_slider_one_1{
+	background-image: url('../img/card_one.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_2{
+	background-image: url('../img/card_two.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_3{
+	background-image: url('../img/card_three.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_4{
+	background-image: url('../img/card_four.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+
+.card_font_slider_one_5{
+	background-image: url('../img/card_five.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_6{
+	background-image: url('../img/card_six.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_7{
+	background-image: url('../img/card_seven.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.transitor{
+	transition: all 1s ease;
+}
+
+.preloader {
+width: 100%;
+z-index: 1000;}
+
+.parallax-container {
+      height:100px;
+    }
+
+ .sliderm{
+ 	height: 150px;
+ }
+
+
+
+
+ .container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.container > div {
+  white-space: nowrap;
+  position: relative;
+  transition: all 0.6s ease-in-out;
+}
+
+.content {
+  background: red;
+  display: inline-block;
+  padding: 4em;
+  margin-right: 1em;
+  text-align: center;
+}
